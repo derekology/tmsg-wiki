@@ -1,40 +1,26 @@
 ---
-title: Welcome to Starlight
-description: Get started building your docs site with Starlight.
-template: splash # Remove or comment out this line to display the site sidebar on this page.
-hero:
-  tagline: Congrats on setting up a new Starlight project!
-  image:
-    file: ../../assets/houston.webp
-  actions:
-    - text: Example Guide
-      link: /guides/example/
-      icon: right-arrow
-    - text: Read the Starlight docs
-      link: https://starlight.astro.build
-      icon: external
-      variant: minimal
+title: AgentReady
+description: A wiki of apps, services, and their documented API, MCP, permission, and operational capabilities for agents.
 ---
 
-import { Card, CardGrid } from '@astrojs/starlight/components';
+AgentReady is a wiki about how apps and services can be used by agents. Its documentation-based assessments describe API and MCP capabilities, permissions, and operational constraints without an overall score or readiness tier. Documented support is not evidence of a live-tested integration.
 
-## Next steps
+## Browse the wiki
 
-<CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
-	</Card>
-	<Card title="Change page layout" icon="document">
-		Delete `template: splash` in `src/content/docs/index.mdx` to display a
-		sidebar on this page.
-	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
-	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
-	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
-	</Card>
-</CardGrid>
+Start with the alphabetical [apps and services directory](/apps/) or browse [developer tools](/categories/developer-tools/), [knowledge management](/categories/knowledge-management/), and [communication](/categories/communication/) in the [category index](/categories/).
+
+## Service assessments
+
+- [GitHub](/apps/github/): issue tracking and repository workflows.
+- [Notion](/apps/notion/): workspace pages and project context.
+- [Slack](/apps/slack/): discussion retrieval and messaging.
+
+Each entry separates read and write capabilities, cites official documentation, and records its source-review date and untested boundaries.
+
+## How assessments work
+
+The [assessment method](/assessment/) defines per-capability evidence labels, an API/MCP-first approach, and the distinction between documentation review and live testing. Missing evidence means **Not verified**, not unsupported. Permissions, event delivery, pagination, and limits matter as much as the presence of an interface.
+
+## Contribute
+
+Use the [contribution guide](/contributing/) to propose corrections, review official sources, or add a service.

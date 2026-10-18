@@ -1,0 +1,51 @@
+---
+import SiteTitle from '@astrojs/starlight/components/SiteTitle.astro';
+---
+
+<div class="site-brand">
+	{
+		Astro.locals.starlightRoute.hasSidebar && (
+			<button
+				type="button"
+				data-open-menu
+				aria-label="Open main navigation"
+				aria-controls="site-navigation"
+				aria-haspopup="dialog"
+				aria-expanded="false"
+				class="print:hidden"
+			>
+				<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+					<path d="M3 6h18M3 12h18M3 18h18" />
+				</svg>
+			</button>
+		)
+	}
+	<SiteTitle><slot /></SiteTitle>
+</div>
+
+<style>
+	.site-brand {
+		display: flex;
+		align-items: center;
+		gap: 0.75rem;
+		min-width: 0;
+	}
+
+	button {
+		display: grid;
+		place-items: center;
+		flex-shrink: 0;
+		width: 2.75rem;
+		height: 2.75rem;
+		border: 1px solid transparent;
+		border-radius: 2px;
+		color: var(--sl-color-text);
+		background: transparent;
+		cursor: pointer;
+	}
+
+	button:hover {
+		border-color: var(--sl-color-hairline);
+		background: var(--sl-color-gray-6);
+	}
+</style>

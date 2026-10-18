@@ -1,0 +1,48 @@
+<div class="article-layout">
+	{
+		Astro.locals.starlightRoute.toc && (
+			<aside class="contents-column print:hidden">
+				<slot name="right-sidebar" />
+			</aside>
+		)
+	}
+	<div class="main-pane"><slot /></div>
+</div>
+
+<style>
+	.main-pane {
+		min-width: 0;
+		isolation: isolate;
+	}
+
+	@media (min-width: 72rem) {
+		.article-layout {
+			display: grid;
+			grid-template-columns: minmax(0, 1fr);
+			max-width: 90rem;
+			margin-inline: auto;
+		}
+
+		.article-layout:has(.contents-column) {
+			grid-template-columns: var(--sl-sidebar-width) minmax(0, 1fr);
+		}
+
+		.contents-column {
+			position: sticky;
+			top: var(--sl-nav-height);
+			align-self: start;
+			max-height: calc(100dvh - var(--sl-nav-height));
+			overflow-y: auto;
+		}
+
+		.main-pane {
+			--sl-content-margin-inline: 0;
+			max-width: calc(var(--sl-content-width) + 2 * var(--sl-content-pad-x));
+		}
+	}
+
+	@media print {
+		.article-layout { display: block; }
+		.main-pane { max-width: none; }
+	}
+</style>

@@ -1,0 +1,188 @@
+:root,
+::backdrop {
+  --sl-font: Arial, Helvetica, sans-serif;
+  --sl-text-body: 1rem;
+  --sl-line-height: 1.6;
+  --sl-content-width: 48rem;
+  --sl-sidebar-width: 15rem;
+  --sl-text-h1: 2rem;
+  --sl-text-h2: 1.5rem;
+  --sl-text-h3: 1.25rem;
+
+  --sl-color-white: #eaecf0;
+  --sl-color-gray-1: #eaecf0;
+  --sl-color-text: #eaecf0;
+  --sl-color-gray-2: #c8ccd1;
+  --sl-color-gray-3: #a2a9b1;
+  --sl-color-gray-4: #72777d;
+  --sl-color-gray-5: #54595d;
+  --sl-color-gray-6: #27292d;
+  --sl-color-gray-7: #202122;
+  --sl-color-bg-inline-code: #202122;
+  --sl-color-black: #101418;
+  --sl-color-bg: #101418;
+  --sl-color-bg-nav: #101418;
+  --sl-color-bg-sidebar: #101418;
+  --sl-color-accent: #88a3e8;
+  --sl-color-text-accent: #88a3e8;
+  --sl-color-bg-accent: #88a3e8;
+  --sl-color-accent-low: #233566;
+  --sl-color-accent-high: #b6d4fb;
+  --sl-color-text-invert: #101418;
+  --sl-color-hairline: #54595d;
+  --sl-color-hairline-light: #54595d;
+  --sl-color-hairline-shade: #54595d;
+}
+
+:root[data-has-sidebar] {
+  --sl-content-inline-start: 0rem;
+}
+
+:root[data-theme='light'],
+:root[data-theme='light'] ::backdrop {
+  --sl-color-white: #202122;
+  --sl-color-gray-1: #202122;
+  --sl-color-text: #202122;
+  --sl-color-gray-2: #404244;
+  --sl-color-gray-3: #54595d;
+  --sl-color-gray-4: #72777d;
+  --sl-color-gray-5: #a2a9b1;
+  --sl-color-gray-6: #eaecf0;
+  --sl-color-gray-7: #f8f9fa;
+  --sl-color-bg-inline-code: #f8f9fa;
+  --sl-color-black: #ffffff;
+  --sl-color-bg: #ffffff;
+  --sl-color-bg-nav: #ffffff;
+  --sl-color-bg-sidebar: #ffffff;
+  --sl-color-accent: #3366cc;
+  --sl-color-text-accent: #3366cc;
+  --sl-color-bg-accent: #3366cc;
+  --sl-color-accent-low: #e8eeff;
+  --sl-color-accent-high: #233566;
+  --sl-color-text-invert: #ffffff;
+  --sl-color-hairline: #a2a9b1;
+  --sl-color-hairline-light: #a2a9b1;
+  --sl-color-hairline-shade: #a2a9b1;
+}
+
+.site-title,
+.content-panel h1,
+.sl-markdown-content h2 {
+  font-family: 'Linux Libertine', Georgia, 'Times New Roman', serif;
+  font-weight: normal;
+}
+
+.site-title {
+  font-size: 1.625rem;
+  color: var(--sl-color-white);
+}
+
+.sl-markdown-content h2:not(.sr-only) {
+  display: inline-block;
+  border-bottom: 1px solid var(--sl-color-hairline);
+  padding-bottom: 0.25rem;
+  width: 100%;
+}
+
+.sl-markdown-content a {
+  color: var(--sl-color-text-accent);
+  text-decoration: none;
+  overflow-wrap: anywhere;
+}
+
+.sl-markdown-content a:hover,
+.sl-markdown-content a:focus {
+  color: var(--sl-color-text-accent);
+  text-decoration: underline;
+}
+
+.sidebar-content a[aria-current='page'] {
+  color: var(--sl-color-text);
+  background-color: var(--sl-color-accent-low);
+  border-radius: 0;
+  font-weight: 700;
+}
+
+.right-sidebar-panel h2,
+#site-navigation-title {
+  display: none;
+}
+
+.right-sidebar-panel a {
+  font-size: 0.95rem;
+  color: var(--sl-color-text-accent);
+}
+
+.right-sidebar-panel a:hover,
+.right-sidebar-panel a:focus-visible,
+mobile-starlight-toc a {
+  color: var(--sl-color-text-accent);
+}
+
+.right-sidebar-panel a:hover,
+.right-sidebar-panel a:focus-visible {
+  text-decoration: underline;
+}
+
+.pagination-links {
+  border-top: 1px solid var(--sl-color-hairline);
+  padding-top: 1rem;
+}
+
+.pagination-links a {
+  border: 0;
+  border-radius: 0;
+  padding: 0.25rem 0;
+  box-shadow: none;
+  color: var(--sl-color-gray-3);
+  font-size: 0.875rem;
+}
+
+.pagination-links .link-title {
+  color: var(--sl-color-text-accent);
+  font-size: 1rem;
+  line-height: var(--sl-line-height);
+}
+
+.pagination-links a:hover .link-title,
+.pagination-links a:focus-visible .link-title {
+  text-decoration: underline;
+}
+
+.pagination-links a:focus-visible {
+  outline: 2px solid var(--sl-color-text-accent);
+  outline-offset: 4px;
+}
+
+.pagination-links svg {
+  width: 1rem;
+  height: 1rem;
+}
+
+html:has(#site-navigation[open]) {
+  overflow: hidden;
+}
+
+site-search button[data-open-modal] {
+  border: 1px solid var(--sl-color-hairline);
+  border-radius: 2px;
+}
+
+.social-icons:not(:has(a))::after {
+  content: none;
+}
+
+.sl-markdown-content table {
+  border-collapse: collapse;
+}
+
+.sl-markdown-content :is(th, td) {
+  border: 1px solid var(--sl-color-hairline);
+  padding: 0.5rem;
+  vertical-align: top;
+  overflow-wrap: normal;
+}
+
+.sl-markdown-content th {
+  background-color: var(--sl-color-gray-6);
+}

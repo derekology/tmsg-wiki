@@ -1,22 +1,6 @@
-## Development
+# Editing AgentReady
 
-When starting the dev server, use background mode:
-
-```
-astro dev --background
-```
-
-Manage the background server with `astro dev stop`, `astro dev status`, and `astro dev logs`.
-
-## Documentation
-
-Full documentation: https://docs.astro.build
-
-Consult these guides before working on related tasks:
-
-- [Adding pages, dynamic routes, or middleware](https://docs.astro.build/en/guides/routing/)
-- [Working with Astro components](https://docs.astro.build/en/basics/astro-components/)
-- [Using React, Vue, Svelte, or other framework components](https://docs.astro.build/en/guides/framework-components/)
-- [Adding or managing content](https://docs.astro.build/en/guides/content-collections/)
-- [Adding styles or using Tailwind](https://docs.astro.build/en/guides/styling/)
-- [Supporting multiple languages](https://docs.astro.build/en/guides/internationalization/)
+- Follow `src/content/docs/assessment.md` when editing assessments; use existing entries for structure.
+- Support capability claims with claim-specific official sources and actual source-review dates. Never invent evidence or imply live testing from documentation review.
+- Keep missing or conflicting evidence **Not verified**; use **Not supported** only for an explicit official statement.
+- Preserve working article, directory, and category links when adding or moving content.

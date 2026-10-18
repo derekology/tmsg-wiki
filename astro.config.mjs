@@ -2,24 +2,32 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 
-// https://astro.build/config
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'My Docs',
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
+			title: 'AgentReady',
+			description: 'A wiki of apps, services, and their agent-readiness capabilities.',
+			customCss: ['./src/styles/wikipedia.css'],
+			components: {
+				PageFrame: './src/components/PageFrame.astro',
+				SiteTitle: './src/components/SiteTitle.astro',
+				TwoColumnContent: './src/components/TwoColumnContent.astro',
+			},
 			sidebar: [
-				{
-					label: 'Guides',
-					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', slug: 'guides/example' },
-					],
-				},
-				{
-					label: 'Reference',
-					items: [{ autogenerate: { directory: 'reference' } }],
-				},
+				{ label: 'Main page', link: '/' },
+				{ label: 'Browse', items: [
+					{ label: 'Apps and services', slug: 'apps' },
+					{ label: 'Categories', slug: 'categories' },
+				] },
+				{ label: 'Service assessments', items: [
+					{ slug: 'apps/github' },
+					{ slug: 'apps/notion' },
+					{ slug: 'apps/slack' },
+				] },
+				{ label: 'About AgentReady', items: [
+					{ label: 'Assessment method', slug: 'assessment' },
+					{ label: 'Contributing', slug: 'contributing' },
+				] },
 			],
 		}),
 	],
