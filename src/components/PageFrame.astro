@@ -27,10 +27,12 @@ const { hasSidebar } = Astro.locals.starlightRoute;
 			const toggle = this.querySelector<HTMLButtonElement>('[data-open-menu]');
 			if (!dialog || !toggle) return;
 
-			toggle.addEventListener('click', () => dialog.showModal());
+			toggle.addEventListener('click', () => {
+				if (!dialog.open) dialog.showModal();
+				toggle.setAttribute('aria-expanded', String(dialog.open));
+			});
 			this.querySelector('[data-close-menu]')?.addEventListener('click', () => dialog.close());
 			dialog.addEventListener('close', () => toggle.setAttribute('aria-expanded', 'false'));
-			dialog.addEventListener('toggle', () => toggle.setAttribute('aria-expanded', String(dialog.open)));
 			dialog.addEventListener('click', (event) => {
 				const bounds = dialog.getBoundingClientRect();
 				const outside = event.clientX < bounds.left || event.clientX > bounds.right ||
@@ -125,6 +127,11 @@ const { hasSidebar } = Astro.locals.starlightRoute;
 		color: var(--sl-color-text);
 		background: var(--sl-color-bg-nav);
 		cursor: pointer;
+	}
+
+	.drawer-heading button:focus-visible {
+		outline: 2px solid var(--sl-color-text-accent);
+		outline-offset: 3px;
 	}
 
 	.sidebar-content {

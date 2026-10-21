@@ -179,8 +179,7 @@
   font-weight: 700;
 }
 
-.right-sidebar-panel h2,
-#site-navigation-title {
+.right-sidebar-panel h2 {
   display: none;
 }
 
