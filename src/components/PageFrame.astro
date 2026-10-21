@@ -8,7 +8,6 @@ const { hasSidebar } = Astro.locals.starlightRoute;
 		hasSidebar && (
 			<dialog id="site-navigation" aria-labelledby="site-navigation-title">
 				<div class="drawer-heading">
-					<h2 id="site-navigation-title">Main navigation</h2>
 					<button type="button" data-close-menu aria-label="Close main navigation" autofocus>×</button>
 				</div>
 				<nav class="sidebar-content" aria-label={Astro.locals.t('sidebarNav.accessibleLabel')}>

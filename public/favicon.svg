@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="#3366cc" stroke-width="3" stroke-linejoin="round">
-  <style>@media (prefers-color-scheme: dark) { svg { stroke: #88a3e8; } }</style>
-  <path d="M32 15C25 10 15 9 5 12v39c10-3 20-2 27 3Z"/>
-  <path d="M32 15c7-5 17-6 27-3v39c-10-3-20-2-27 3Z"/>
-  <path d="M32 15v39"/>
-</svg>

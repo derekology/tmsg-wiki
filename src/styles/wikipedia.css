@@ -32,7 +32,7 @@
   --sl-color-hairline: #54595d;
   --sl-color-hairline-light: #54595d;
   --sl-color-hairline-shade: #54595d;
-  --tmsg-brand-accent: #ff6b6b;
+  --tmsg-brand-accent: #dd3333;
 }
 
 :root[data-has-sidebar] {
@@ -130,7 +130,7 @@
   line-height: 1.35;
 }
 
-.site-title > span {
+.site-title>span {
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -234,20 +234,21 @@ mobile-starlight-toc a {
   height: 1rem;
 }
 
-.main-pane > main {
+.main-pane>main {
   display: flex;
   flex-direction: column;
   min-height: calc(100dvh - var(--sl-nav-height) - var(--sl-mobile-toc-height));
 }
 
-.main-pane > main > .content-panel:last-child,
-.main-pane > main > .content-panel:last-child > .sl-container {
+.main-pane>main>.content-panel:last-child,
+.main-pane>main>.content-panel:last-child>.sl-container {
   display: flex;
   flex: 1;
   flex-direction: column;
+  max-width: none;
 }
 
-.main-pane > main > .content-panel:last-child footer {
+.main-pane>main>.content-panel:last-child footer {
   margin-top: auto;
 }
 
@@ -280,7 +281,7 @@ site-search button[data-open-modal] {
 }
 
 @media print {
-  .main-pane > main {
+  .main-pane>main {
     min-height: 0;
   }
 }
