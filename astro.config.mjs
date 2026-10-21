@@ -14,10 +14,13 @@ export default defineConfig({
 				TwoColumnContent: './src/components/TwoColumnContent.astro',
 			},
 			sidebar: [
+				{ label: 'Back to Main Site', link: 'https://themarketingsystemsguy.com/' },
 				{ label: 'Main page', link: '/' },
-				{ label: 'About TMSG Wiki', items: [
-					{ label: 'Contributing', slug: 'contributing' },
-				] },
+				{
+					label: 'About TMSG Wiki', items: [
+						{ label: 'Contributing', slug: 'contributing' },
+					]
+				},
 			],
 		}),
 	],
