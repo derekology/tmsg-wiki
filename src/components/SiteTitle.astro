@@ -15,21 +15,21 @@ const { siteTitleHref } = Astro.locals.starlightRoute;
 				aria-controls="site-navigation"
 				aria-haspopup="dialog"
 				aria-expanded="false"
-				class="print:hidden"
+				class="site-menu-toggle print:hidden"
 			>
-				<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+				<svg viewBox="0 0 24 24" aria-hidden="true">
 					<path d="M3 6h18M3 12h18M3 18h18" />
 				</svg>
 			</button>
 		)
 	}
-	<a href={siteTitleHref} class="site-title sl-flex" aria-label="The Marketing Systems Guy">
+	<a href={siteTitleHref} class="site-title sl-flex">
 		{
 			config.logo && logos.dark && (
 				<>
 					<img
 						class:list={{ 'light:sl-hidden print:hidden': !('src' in config.logo) }}
-						alt={config.logo.alt}
+						alt=""
 						src={logos.dark.src}
 						width={logos.dark.width}
 						height={logos.dark.height}
@@ -37,7 +37,7 @@ const { siteTitleHref } = Astro.locals.starlightRoute;
 					{!('src' in config.logo) && (
 						<img
 							class="dark:sl-hidden print:block"
-							alt={config.logo.alt}
+							alt=""
 							src={logos.light?.src}
 							width={logos.light?.width}
 							height={logos.light?.height}
@@ -52,50 +52,3 @@ const { siteTitleHref } = Astro.locals.starlightRoute;
 		</span>
 	</a>
 </div>
-
-<style>
-	.site-brand {
-		display: flex;
-		align-items: center;
-		gap: 0.75rem;
-		min-width: 0;
-	}
-
-	button {
-		display: grid;
-		place-items: center;
-		flex-shrink: 0;
-		width: 2.75rem;
-		height: 2.75rem;
-		border: 1px solid transparent;
-		border-radius: 2px;
-		color: var(--sl-color-text);
-		background: transparent;
-		cursor: pointer;
-	}
-
-	.site-title {
-		align-items: center;
-		gap: var(--sl-nav-gap);
-		text-decoration: none;
-		white-space: nowrap;
-		min-width: 0;
-	}
-
-	.site-title > span {
-		overflow: hidden;
-	}
-
-	.site-title img {
-		height: calc(var(--sl-nav-height) - 2 * var(--sl-nav-pad-y));
-		width: auto;
-		max-width: 100%;
-		object-fit: contain;
-		object-position: 0 50%;
-	}
-
-	button:hover {
-		border-color: var(--sl-color-hairline);
-		background: var(--sl-color-gray-6);
-	}
-</style>

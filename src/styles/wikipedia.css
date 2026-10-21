@@ -32,6 +32,7 @@
   --sl-color-hairline: #54595d;
   --sl-color-hairline-light: #54595d;
   --sl-color-hairline-shade: #54595d;
+  --tmsg-brand-accent: #ff6b6b;
 }
 
 :root[data-has-sidebar] {
@@ -63,27 +64,85 @@
   --sl-color-hairline: #a2a9b1;
   --sl-color-hairline-light: #a2a9b1;
   --sl-color-hairline-shade: #a2a9b1;
+  --tmsg-brand-accent: #b42318;
 }
 
-.site-title,
 .content-panel h1,
 .sl-markdown-content h2 {
   font-family: 'Linux Libertine', Georgia, 'Times New Roman', serif;
   font-weight: normal;
 }
 
+.site-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  min-width: 0;
+}
+
+.site-menu-toggle {
+  display: grid;
+  flex: 0 0 2.75rem;
+  place-items: center;
+  width: 2.75rem;
+  height: 2.75rem;
+  padding: 0;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  color: var(--sl-color-text);
+  background: transparent;
+  cursor: pointer;
+}
+
+.site-menu-toggle svg {
+  display: block;
+  width: 1.375rem;
+  height: 1.375rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+}
+
+.site-menu-toggle:hover {
+  border-color: var(--sl-color-hairline);
+  background: var(--sl-color-gray-6);
+}
+
+.site-menu-toggle:focus-visible,
+.site-title:focus-visible {
+  outline: 2px solid var(--sl-color-text-accent);
+  outline-offset: 3px;
+}
+
 .site-title {
+  display: flex;
+  align-items: center;
+  min-width: 0;
+  gap: var(--sl-nav-gap);
+  color: var(--sl-color-white);
+  text-decoration: none;
+  white-space: nowrap;
   font-family: Inter, Arial, Helvetica, sans-serif;
   font-weight: 700;
   font-size: 0.9rem;
-  color: var(--sl-color-white);
   letter-spacing: 0.1em;
-  line-height: 1.5;
+  line-height: 1.35;
 }
 
-.site-title-text {
+.site-title > span {
   display: flex;
   flex-direction: column;
+  overflow: hidden;
+}
+
+.site-title img {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  height: calc(var(--sl-nav-height) - 2 * var(--sl-nav-pad-y));
+  object-fit: contain;
+  object-position: left center;
 }
 
 .site-title-line {
@@ -91,7 +150,7 @@
 }
 
 .site-title-red {
-  color: #dd3333;
+  color: var(--tmsg-brand-accent);
 }
 
 .sl-markdown-content h2:not(.sr-only) {
