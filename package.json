@@ -1,6 +1,10 @@
 {
-  "name": "agentready",
-  "description": "Evidence-backed assessments of apps and services for agent use.",
+  "name": "tmsg-wiki",
+  "description": "The Marketing Systems Wiki, currently under construction.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/derekology/tmsg-wiki"
+  },
   "private": true,
   "packageManager": "pnpm@10.33.0",
   "type": "module",

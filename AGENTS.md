@@ -1,6 +1,6 @@
-# Editing AgentReady
+# Editing TMSG Wiki
 
-- Follow `src/content/docs/assessment.md` when editing assessments; use existing entries for structure.
-- Support capability claims with claim-specific official sources and actual source-review dates. Never invent evidence or imply live testing from documentation review.
-- Keep missing or conflicting evidence **Not verified**; use **Not supported** only for an explicit official statement.
-- Preserve working article, directory, and category links when adding or moving content.
+- Keep content clear, useful, and appropriate for The Marketing Systems Wiki.
+- Support factual and time-sensitive claims with claim-specific, reliable sources and actual review dates. Never invent evidence or imply live testing from documentation review.
+- Distinguish verified information from missing or conflicting evidence; do not present uncertainty as fact.
+- Preserve working article and navigation links when adding or moving content.

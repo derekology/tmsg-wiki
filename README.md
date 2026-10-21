@@ -1,11 +1,7 @@
-# AgentReady
+# The Marketing Systems Wiki (TMSG Wiki)
 
-AgentReady is a reference for understanding how AI agents can use apps and services through their documented APIs and official Model Context Protocol (MCP) servers.
+The TMSG Wiki is under construction. Please check back soon.
 
-Assessments cite official sources and describe individual capabilities, permissions, and constraints—not an overall score, ranking, or guarantee that an integration works. Missing or inconclusive evidence means **Not verified**, not unsupported. The initial entries are documentation reviews, not live-tested integrations.
+The wiki will collect practical information about marketing technology and systems. It currently contains a general [contribution guide](src/content/docs/contributing.md).
 
-- [Browse apps and services](src/content/docs/apps/index.md)
-- [Understand the assessment method and evidence labels](src/content/docs/assessment.md)
-- [Contribute an assessment or correction](src/content/docs/contributing.md)
-
-Contributions are repository edits backed by claim-specific official sources. Include the actual source-review date and distinguish documented capabilities from any live-test observations.
+Repository: [github.com/derekology/tmsg-wiki](https://github.com/derekology/tmsg-wiki)

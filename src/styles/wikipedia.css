@@ -73,8 +73,25 @@
 }
 
 .site-title {
-  font-size: 1.625rem;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 0.9rem;
   color: var(--sl-color-white);
+  letter-spacing: 0.1em;
+  line-height: 1.5;
+}
+
+.site-title-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.site-title-line {
+  white-space: nowrap;
+}
+
+.site-title-red {
+  color: #dd3333;
 }
 
 .sl-markdown-content h2:not(.sr-only) {
