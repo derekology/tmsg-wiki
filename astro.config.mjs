@@ -7,6 +7,7 @@ export default defineConfig({
 		starlight({
 			title: 'TMSG Wiki',
 			description: 'The Marketing Systems Wiki is under construction.',
+			favicon: '/favicon.ico',
 			customCss: ['./src/styles/wikipedia.css'],
 			components: {
 				PageFrame: './src/components/PageFrame.astro',
