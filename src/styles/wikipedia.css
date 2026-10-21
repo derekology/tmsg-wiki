@@ -176,6 +176,23 @@ mobile-starlight-toc a {
   height: 1rem;
 }
 
+.main-pane > main {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100dvh - var(--sl-nav-height) - var(--sl-mobile-toc-height));
+}
+
+.main-pane > main > .content-panel:last-child,
+.main-pane > main > .content-panel:last-child > .sl-container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.main-pane > main > .content-panel:last-child footer {
+  margin-top: auto;
+}
+
 html:has(#site-navigation[open]) {
   overflow: hidden;
 }
@@ -202,4 +219,10 @@ site-search button[data-open-modal] {
 
 .sl-markdown-content th {
   background-color: var(--sl-color-gray-6);
+}
+
+@media print {
+  .main-pane > main {
+    min-height: 0;
+  }
 }
