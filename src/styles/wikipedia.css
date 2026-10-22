@@ -199,6 +199,30 @@ mobile-starlight-toc a {
   text-decoration: underline;
 }
 
+.page-title-actions {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.suggest-edit {
+  flex: 0 0 auto;
+  color: var(--sl-color-text-accent);
+  font-size: 0.875rem;
+  text-decoration: none;
+}
+
+.suggest-edit:hover,
+.suggest-edit:focus-visible {
+  text-decoration: underline;
+}
+
+.suggest-edit:focus-visible {
+  outline: 2px solid var(--sl-color-text-accent);
+  outline-offset: 3px;
+}
+
 .pagination-links {
   border-top: 1px solid var(--sl-color-hairline);
   padding-top: 1rem;
@@ -278,6 +302,14 @@ site-search button[data-open-modal] {
 
 .sl-markdown-content th {
   background-color: var(--sl-color-gray-6);
+}
+
+@media (max-width: 34rem) {
+  .page-title-actions {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
 }
 
 @media print {

@@ -22,6 +22,28 @@ const { hasSidebar } = Astro.locals.starlightRoute;
 <script>
 	class WikiPageFrame extends HTMLElement {
 		connectedCallback() {
+			const pageTitle = document.querySelector<HTMLHeadingElement>('h1[data-page-title], h1#_top');
+			if (pageTitle && !pageTitle.closest('.page-title-actions')) {
+				const titleRow = document.createElement('div');
+				titleRow.className = 'page-title-actions';
+				pageTitle.parentNode?.insertBefore(titleRow, pageTitle);
+				titleRow.append(pageTitle);
+
+				const issueUrl = new URL('https://github.com/derekology/tmsg-wiki/issues/new');
+				issueUrl.searchParams.set('title', `Suggested edit: ${pageTitle.textContent?.trim() ?? ''}`);
+				issueUrl.searchParams.set(
+					'body',
+					`Page: ${window.location.href}\n\nWhat would you like to change?`,
+				);
+				const link = document.createElement('a');
+				link.className = 'suggest-edit';
+				link.href = issueUrl.href;
+				link.target = '_blank';
+				link.rel = 'noopener noreferrer';
+				link.textContent = 'Suggest an edit';
+				titleRow.append(link);
+			}
+
 			const dialog = this.querySelector<HTMLDialogElement>('#site-navigation');
 			const toggle = this.querySelector<HTMLButtonElement>('[data-open-menu]');
 			if (!dialog || !toggle) return;
