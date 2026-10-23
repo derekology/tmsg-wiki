@@ -7,9 +7,9 @@ Email deliverability concerns whether messages are accepted and placed where rec
 
 ## Technical foundations
 
-Set up sender authentication for the domains used to send mail. Google and Yahoo publish sender requirements that include SPF or DKIM for senders and stronger authentication, DMARC alignment, and one-click unsubscribe requirements for bulk senders. Requirements vary with sending volume and provider; check the current rules for every mailbox provider you use.
+Set up sender authentication for the domains used to send mail. [SPF](/lifecycle/spf/) authorizes sending hosts, [DKIM](/lifecycle/dkim/) signs messages, and [DMARC](/lifecycle/dmarc/) checks alignment with the visible From domain and publishes policy and reporting preferences. Google and Yahoo publish sender requirements that include authentication, DMARC alignment, and [one-click unsubscribe headers](/lifecycle/one-click-unsubscribe-headers/) for applicable bulk mail. Requirements vary by provider and may change; consult the provider's current guidance rather than treating one checklist as universal.
 
-Also configure a clear unsubscribe experience, honor requests promptly, and monitor complaint, bounce, and delivery signals. Use a sending domain that your organization controls and ensure DNS changes are reviewed by the responsible technical team.
+Also configure a clear unsubscribe experience, honor requests promptly, and monitor complaint, bounce, and delivery signals. [BIMI](/lifecycle/bimi/) may allow participating mailbox providers to show a verified brand logo, but it does not replace authentication or guarantee display. Use a sending domain that your organization controls and ensure DNS changes are reviewed by the responsible technical team.
 
 ## List and message practices
 
@@ -19,7 +19,7 @@ Open rates are an unreliable standalone measure because some mail clients may pr
 
 ## Related concepts
 
-See [marketing automation](/concepts/marketing-automation/), [first-party data](/data/first-party-and-intent-data/), and the [Marketo Engage](/tools/marketo-engage/) and [Mailchimp](/tools/mailchimp/) profiles.
+See [marketing automation](/concepts/marketing-automation/), [first-party data](/data/first-party-and-intent-data/), [GDPR](/privacy/gdpr/), [SpamAssassin](/lifecycle/spamassassin/), and the [Marketo Engage](/tools/marketo-engage/) and [Mailchimp](/tools/mailchimp/) profiles.
 
 ## Sources
 

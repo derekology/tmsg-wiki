@@ -47,9 +47,19 @@ export default defineConfig({
 					],
 				},
 				{
+					label: 'Privacy & Compliance',
+					items: [{ label: 'GDPR', slug: 'privacy/gdpr' }],
+				},
+				{
 					label: 'Customer Lifecycle',
 					items: [
 						{ label: 'Email Deliverability', slug: 'lifecycle/email-deliverability' },
+						{ label: 'SPF', slug: 'lifecycle/spf' },
+						{ label: 'DKIM', slug: 'lifecycle/dkim' },
+						{ label: 'DMARC', slug: 'lifecycle/dmarc' },
+						{ label: 'BIMI', slug: 'lifecycle/bimi' },
+						{ label: 'One-Click Unsubscribe Headers', slug: 'lifecycle/one-click-unsubscribe-headers' },
+						{ label: 'SpamAssassin', slug: 'lifecycle/spamassassin' },
 						{ label: 'Retention and Net Revenue Retention', slug: 'lifecycle/retention-and-net-revenue-retention' },
 					],
 				},
@@ -66,6 +76,12 @@ export default defineConfig({
 						{ label: 'Zapier', slug: 'tools/zapier' },
 						{ label: 'Mailchimp', slug: 'tools/mailchimp' },
 						{ label: 'Mixpanel', slug: 'tools/mixpanel' },
+						{ label: 'Hightouch', slug: 'tools/hightouch' },
+						{ label: 'Treasure AI', slug: 'tools/treasure-ai' },
+						{ label: 'Salesforce Marketing Cloud Engagement', slug: 'tools/salesforce-marketing-cloud' },
+						{ label: 'Salesforce Marketing Cloud Next', slug: 'tools/salesforce-marketing-cloud-next' },
+						{ label: 'Braze', slug: 'tools/braze' },
+						{ label: 'Acoustic', slug: 'tools/acoustic' },
 					],
 				},
 				{
