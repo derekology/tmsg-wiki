@@ -16,10 +16,14 @@ export default defineConfig({
 			},
 			sidebar: [
 				{ label: 'Back to Main Site', link: 'https://themarketingsystemsguy.com/' },
-				{ label: 'Main page', link: '/' },
+				{ label: 'Wiki Home', link: '/' },
 				{
 					label: 'Strategy & Operations',
 					items: [
+						{ label: 'Go-to-Market Strategy', slug: 'concepts/go-to-market' },
+						{ label: 'Marketing Operations', slug: 'concepts/marketing-operations' },
+						{ label: 'Marketing Systems', slug: 'concepts/marketing-systems' },
+						{ label: 'Marketing Technology', slug: 'concepts/marketing-technology' },
 						{ label: 'Account-Based Marketing', slug: 'concepts/account-based-marketing' },
 						{ label: 'Demand Generation and Demand Capture', slug: 'concepts/demand-generation' },
 						{ label: 'Product-Led Growth', slug: 'concepts/product-led-growth' },
@@ -34,6 +38,8 @@ export default defineConfig({
 					label: 'Measurement',
 					items: [
 						{ label: 'Marketing Attribution', slug: 'measurement/marketing-attribution' },
+						{ label: 'Attribution Strategies', slug: 'measurement/attribution-strategies' },
+						{ label: 'Tracking Pixels', slug: 'measurement/tracking-pixel' },
 						{ label: 'CAC and Customer Lifetime Value', slug: 'measurement/cac-and-customer-lifetime-value' },
 						{ label: 'UTM Parameters', slug: 'measurement/utm-parameters' },
 						{ label: 'Experimentation and A/B Testing', slug: 'measurement/experimentation-and-ab-testing' },
@@ -44,6 +50,18 @@ export default defineConfig({
 					items: [
 						{ label: 'First-Party and Intent Data', slug: 'data/first-party-and-intent-data' },
 						{ label: 'Customer Data Platform', slug: 'data/customer-data-platform' },
+					],
+				},
+				{
+					label: 'Email Development',
+					items: [
+						{ label: 'AMPscript', slug: 'email/ampscript' },
+						{ label: 'Server-Side JavaScript (SSJS)', slug: 'email/ssjs' },
+						{ label: 'Velocity Script', slug: 'email/velocity-script' },
+						{ label: 'Liquid', slug: 'email/liquid' },
+						{ label: 'MJML', slug: 'email/mjml' },
+						{ label: 'Email Rendering', slug: 'email/email-rendering' },
+						{ label: 'VML', slug: 'email/vml' },
 					],
 				},
 				{
@@ -75,6 +93,8 @@ export default defineConfig({
 						{ label: 'Google Tag Manager', slug: 'tools/google-tag-manager' },
 						{ label: 'Zapier', slug: 'tools/zapier' },
 						{ label: 'Mailchimp', slug: 'tools/mailchimp' },
+						{ label: 'MailerLite', slug: 'tools/mailerlite' },
+						{ label: 'Mailjet', slug: 'tools/mailjet' },
 						{ label: 'Mixpanel', slug: 'tools/mixpanel' },
 						{ label: 'Hightouch', slug: 'tools/hightouch' },
 						{ label: 'Treasure AI', slug: 'tools/treasure-ai' },

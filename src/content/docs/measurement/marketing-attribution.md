@@ -22,7 +22,7 @@ Google Analytics documents multiple models in its attribution reports. The optio
 
 ## Related concepts
 
-See [buyer journey and funnel](/concepts/buyer-journey-and-funnel/), [UTM parameters](/measurement/utm-parameters/), [customer acquisition cost and lifetime value](/measurement/cac-and-customer-lifetime-value/), and [experimentation](/measurement/experimentation-and-ab-testing/).
+For a comparison of common model choices and when to use them, see [attribution strategies](/measurement/attribution-strategies/). Also see [buyer journey and funnel](/concepts/buyer-journey-and-funnel/), [UTM parameters](/measurement/utm-parameters/), [customer acquisition cost and lifetime value](/measurement/cac-and-customer-lifetime-value/), and [experimentation](/measurement/experimentation-and-ab-testing/).
 
 ## Sources
 
