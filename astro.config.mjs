@@ -5,7 +5,7 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'TMSG Wiki',
+			title: 'The Marketing Systems Wiki',
 			description: 'A practical guide to marketing platforms, data, measurement, and operating systems.',
 			favicon: '/favicon.ico',
 			customCss: ['./src/styles/wikipedia.css'],
@@ -105,7 +105,7 @@ export default defineConfig({
 					],
 				},
 				{
-					label: 'About TMSG Wiki', items: [
+					label: 'About', items: [
 						{ label: 'Contributing', slug: 'contributing' },
 					]
 				},

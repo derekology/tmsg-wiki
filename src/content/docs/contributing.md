@@ -1,9 +1,9 @@
 ---
 title: Contributing
-description: Suggestions for contributing useful, well-sourced content to the TMSG Wiki.
+description: Suggestions for contributing useful, well-sourced content to The Marketing Systems Wiki.
 ---
 
-The TMSG Wiki is being built. Suggestions for useful topics, corrections, and improvements are welcome.
+The Marketing Systems Wiki is always being built. Suggestions for useful topics, corrections, and improvements are welcome.
 
 ## Suggesting a change
 

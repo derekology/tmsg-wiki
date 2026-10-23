@@ -1,6 +1,6 @@
-# The Marketing Systems Wiki (TMSG Wiki)
+# The Marketing Systems Wiki
 
-The TMSG Wiki is under construction. Please check back soon.
+The Marketing Systems Wiki is under construction. Please check back soon.
 
 The wiki will collect practical information about marketing technology and systems. It currently contains a general [contribution guide](/contributing/).
 

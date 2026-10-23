@@ -1,4 +1,4 @@
-# Editing TMSG Wiki
+# Editing The Marketing Systems Wiki
 
 - Keep content clear, useful, and appropriate for The Marketing Systems Wiki.
 - Support factual and time-sensitive claims with claim-specific, reliable sources and actual review dates. Never invent evidence or imply live testing from documentation review.
