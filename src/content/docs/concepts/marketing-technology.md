@@ -5,6 +5,8 @@ description: How to evaluate the software and integrations used to plan, activat
 
 Marketing technology (martech) is the software and connected infrastructure used to plan, create, deliver, personalize, coordinate, and measure marketing. A martech stack is the set of these tools and their data flows in a particular organization. The stack is only one part of a [marketing system](/concepts/marketing-systems/), which also includes people, processes, data definitions, and governance.
 
+Some platforms also expose their capabilities outside their own visual interface. This is often called a [headless marketing platform](/concepts/headless-marketing-platform/). It can let another application or an AI agent request supported actions, but does not by itself remove the need for integration design, permissions, review, or operational ownership.
+
 ## Common categories
 
 An organization may use technology for:
@@ -36,7 +38,7 @@ Prototype the critical workflow with representative data and test edge cases bef
 
 More integrations or overlapping platforms can increase cost and failure modes without improving customer outcomes. Consolidate only after understanding which teams and workflows depend on each tool. Conversely, a single suite may not satisfy every specialized need. The right architecture balances usability, reliability, governance, and the organization's ability to operate it.
 
-Related guides: [marketing systems](/concepts/marketing-systems/), [marketing operations](/concepts/marketing-operations/), [marketing automation](/concepts/marketing-automation/), and [customer data platforms](/data/customer-data-platform/).
+Related guides: [marketing systems](/concepts/marketing-systems/), [marketing operations](/concepts/marketing-operations/), [marketing automation](/concepts/marketing-automation/), [customer data platforms](/data/customer-data-platform/), and [headless marketing platforms](/concepts/headless-marketing-platform/). See the [glossary](/glossary/) for concise definitions of common marketing and software terms.
 
 ## Sources
 

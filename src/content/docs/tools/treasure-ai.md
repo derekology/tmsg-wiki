@@ -5,6 +5,10 @@ description: Treasure AI's customer data platform and agentic experience platfor
 
 Treasure AI is the current name for the company formerly known as Treasure Data. In April 2026, the company announced the name change and a broader focus on an agentic experience platform. Its announcement describes this direction as building on its customer data platform rather than simply renaming the previous product. Product positioning and capabilities are vendor-described and may evolve.
 
+In October 2026, Treasure AI announced a headless direction: alongside its visual workspace, it is making platform capabilities available through agent-oriented interfaces. The company describes Treasure Code, integrations for supported AI development tools, and an Agent Gateway with Slack and Teams connectors and a remote MCP server rolling out. Its MCP documentation also describes a separate server for searching product documentation and API references. These are different uses: one is for platform operations, the other for documentation lookup. Availability and supported actions depend on the integration and account setup.
+
+Headless access does not mean the visual workspace is going away. It adds ways for people and agents to reach supported platform capabilities. When evaluating agent access, confirm its permissions, approval requirements, audit trail, data boundaries, and which actions are available in your environment. See [headless marketing platforms](/concepts/headless-marketing-platform/) for the general architecture and [the glossary](/glossary/) for terms such as MCP and agent.
+
 ## Where it fits
 
 The platform is aimed at organizations that need to bring customer data together and use it for segmentation, activation, and customer experiences. Its CDP foundation makes data quality, identity resolution, consent and preference handling, and integrations central evaluation topics. The announced AI direction adds questions about what agents can access or change, what approvals are required, how actions are logged, and how generated content or decisions are reviewed.
@@ -17,5 +21,7 @@ Map sources, identity rules, downstream channels, existing CRM and warehouse res
 
 ## Sources
 
-- [Treasure AI: Why We're Becoming Treasure AI](https://www.treasure.ai/blog/treasure-ai-announcement)
-- [Treasure AI](https://www.treasure.ai/)
+- [Treasure AI: Why We're Becoming Treasure AI](https://www.treasure.ai/blog/treasure-ai-announcement) (reviewed November 13, 2026)
+- [Treasure AI Goes Headless: A CDP Built for AI Agents](https://www.treasure.ai/blog/treasure-ai-goes-headless) (published October 14, 2026; reviewed November 13, 2026)
+- [Treasure AI MCP Server documentation](https://docs.treasure.ai/getting-started/ai/mcp-server-docs) (reviewed November 13, 2026)
+- [Treasure AI](https://www.treasure.ai/) (reviewed November 13, 2026)

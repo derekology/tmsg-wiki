@@ -17,6 +17,7 @@ export default defineConfig({
 			sidebar: [
 				{ label: 'Back to Main Site', link: 'https://themarketingsystemsguy.com/' },
 				{ label: 'Wiki Home', link: '/' },
+				{ label: 'Glossary', link: '/glossary' },
 				{
 					label: 'Strategy & Operations',
 					items: [
@@ -24,6 +25,7 @@ export default defineConfig({
 						{ label: 'Marketing Operations', slug: 'concepts/marketing-operations' },
 						{ label: 'Marketing Systems', slug: 'concepts/marketing-systems' },
 						{ label: 'Marketing Technology', slug: 'concepts/marketing-technology' },
+						{ label: 'Headless Marketing Platforms', slug: 'concepts/headless-marketing-platform' },
 						{ label: 'Account-Based Marketing', slug: 'concepts/account-based-marketing' },
 						{ label: 'Demand Generation and Demand Capture', slug: 'concepts/demand-generation' },
 						{ label: 'Product-Led Growth', slug: 'concepts/product-led-growth' },

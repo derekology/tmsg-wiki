@@ -5,6 +5,8 @@ description: How a CDP creates governed customer context that can be used by oth
 
 A customer data platform (CDP) is software for assembling customer data from multiple sources, resolving or managing identity, and making a persistent customer record available to other systems. The CDP Institute's current definition emphasizes ongoing responsibility for the unified customer record, identity, structure, governance, and downstream use. Vendors may use the term differently, so examine the architecture rather than relying on a category label.
 
+Some CDPs expose data and actions to other applications or AI agents through APIs or protocols such as MCP. This is one form of a [headless marketing platform](/concepts/headless-marketing-platform/), not a different definition of a CDP: evaluate the data model, permissions, and supported actions separately. For related vocabulary, see the [glossary](/glossary/).
+
 ## CDP, CRM, warehouse, or integration platform?
 
 - A **CRM** supports people and processes for managing relationships, often centering on sales, service, or account records.
