@@ -45,6 +45,7 @@ export default defineConfig({
 						{ label: 'CAC and Customer Lifetime Value', slug: 'measurement/cac-and-customer-lifetime-value' },
 						{ label: 'UTM Parameters', slug: 'measurement/utm-parameters' },
 						{ label: 'Experimentation and A/B Testing', slug: 'measurement/experimentation-and-ab-testing' },
+						{ label: 'Retention and Net Revenue Retention', slug: 'lifecycle/retention-and-net-revenue-retention' },
 					],
 				},
 				{
@@ -64,6 +65,18 @@ export default defineConfig({
 					],
 				},
 				{
+					label: 'Email Deliverability',
+					items: [
+						{ label: 'Email Deliverability Overview', slug: 'lifecycle/email-deliverability' },
+						{ label: 'SPF', slug: 'lifecycle/spf' },
+						{ label: 'DKIM', slug: 'lifecycle/dkim' },
+						{ label: 'DMARC', slug: 'lifecycle/dmarc' },
+						{ label: 'BIMI', slug: 'lifecycle/bimi' },
+						{ label: 'One-Click Unsubscribe Headers', slug: 'lifecycle/one-click-unsubscribe-headers' },
+						{ label: 'SpamAssassin', slug: 'lifecycle/spamassassin' },
+					],
+				},
+				{
 					label: 'Email Development',
 					items: [
 						{ label: 'AMPscript', slug: 'email/ampscript' },
@@ -78,19 +91,6 @@ export default defineConfig({
 				{
 					label: 'Privacy & Compliance',
 					items: [{ label: 'GDPR', slug: 'privacy/gdpr' }],
-				},
-				{
-					label: 'Customer Lifecycle',
-					items: [
-						{ label: 'Email Deliverability', slug: 'lifecycle/email-deliverability' },
-						{ label: 'SPF', slug: 'lifecycle/spf' },
-						{ label: 'DKIM', slug: 'lifecycle/dkim' },
-						{ label: 'DMARC', slug: 'lifecycle/dmarc' },
-						{ label: 'BIMI', slug: 'lifecycle/bimi' },
-						{ label: 'One-Click Unsubscribe Headers', slug: 'lifecycle/one-click-unsubscribe-headers' },
-						{ label: 'SpamAssassin', slug: 'lifecycle/spamassassin' },
-						{ label: 'Retention and Net Revenue Retention', slug: 'lifecycle/retention-and-net-revenue-retention' },
-					],
 				},
 				{
 					label: 'Tools & Platforms',
