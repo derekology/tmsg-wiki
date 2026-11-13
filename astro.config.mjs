@@ -55,9 +55,12 @@ export default defineConfig({
 					],
 				},
 				{
-					label: 'Email Marketing',
+					label: 'Messaging & Experiences',
 					items: [
 						{ label: 'Email Marketing', slug: 'email/email-marketing' },
+						{ label: 'SMS Messaging', slug: 'channels/sms-messaging' },
+						{ label: 'In-App Messaging', slug: 'channels/in-app-messaging' },
+						{ label: 'Web Personalization', slug: 'channels/web-personalization' },
 					],
 				},
 				{

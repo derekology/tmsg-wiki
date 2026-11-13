@@ -23,13 +23,16 @@ This glossary explains terms used across marketing work and its supporting syste
 
 - **Data activation:** Making data or audience definitions available to systems that use them, such as advertising, CRM, or messaging platforms. See [Hightouch](/tools/hightouch/) for a vendor example.
 - **Data warehouse:** A system that stores structured organizational data for reporting and analysis; it can also supply modeled data to operational systems.
+- **Email marketing:** Using email to communicate with an appropriate audience through campaigns such as lifecycle, triggered, or batch sends. See [email marketing](/email/email-marketing/).
 - **Event:** A recorded occurrence, such as a page view, signup, or purchase, usually represented with a name, time, and associated properties.
 - **First-party data:** Information an organization collects directly through its own interactions or services, subject to applicable notice, consent, and use restrictions. See [first-party and intent data](/data/first-party-and-intent-data/).
 - **Headless platform:** A platform whose capabilities can be accessed through interfaces beyond its own graphical application. The original interface may remain available. See [headless marketing platforms](/concepts/headless-marketing-platform/).
 - **Identity resolution:** Rules and processes for deciding which records or identifiers refer to the same person or account. Incorrect matching can merge distinct people or fragment one person's records.
+- **In-app messaging:** Content displayed within an app or website while someone is using it, often in response to an audience rule or event. See [in-app messaging](/channels/in-app-messaging/).
 - **Integration:** A connection that allows systems to exchange data or invoke actions. Integrations differ in direction, timing, supported fields, failure behavior, and access controls.
 - **Lead:** A person or organization recorded as a potential customer. The definition and lifecycle vary by business; it should not be assumed to mean a qualified buying opportunity.
 - **Lead scoring:** A model or ruleset that assigns values to leads to help prioritize follow-up. Scores depend on data quality and agreed qualification criteria. See [lead scoring and qualification](/concepts/lead-scoring-and-qualification/).
+- **Long code:** A standard telephone number used for SMS; in the United States, a 10-digit long code used for application-to-person messaging is called 10DLC. See [SMS messaging](/channels/sms-messaging/).
 - **Lifecycle marketing:** Marketing coordinated to a customer's or prospect's stage and interactions over time, including onboarding, engagement, and retention.
 - **MCP (Model Context Protocol):** An open protocol for connecting AI applications to external systems, including tools and data sources. MCP describes a connection mechanism; each server determines what it exposes. See [headless marketing platforms](/concepts/headless-marketing-platform/).
 - **Marketing automation:** Software that runs configured marketing workflows, such as triggered communications or audience-based journeys. See [marketing automation](/concepts/marketing-automation/).
@@ -43,7 +46,10 @@ This glossary explains terms used across marketing work and its supporting syste
 - **Retention:** Continued customer activity or relationship over a defined period; the cohort, event, and time window must be specified. See [retention and net revenue retention](/lifecycle/retention-and-net-revenue-retention/).
 - **Revenue operations (RevOps):** Coordination of processes, data, and systems across revenue-related teams, commonly marketing, sales, and customer success. See [revenue operations](/concepts/revenue-operations/).
 - **Segment:** A subset of records that meet a defined set of criteria. The term can refer to an audience definition or, in a product name, a vendor; it does not imply a particular data architecture.
+- **Short code:** A short number used for application-to-person messaging in some markets; availability, registration, and capabilities vary by country and carrier. See [SMS messaging](/channels/sms-messaging/).
+- **SMS (Short Message Service):** Text messaging delivered through mobile networks. Business messaging may use long codes or short codes, depending on market and use. See [SMS messaging](/channels/sms-messaging/).
 - **Sync:** A configured transfer or update of data between systems. A sync may be scheduled or event-driven and can fail, lag, or apply destination-specific transformations.
 - **UTM parameters:** Campaign tags added to URLs to help analytics systems classify traffic sources and campaigns. Consistent naming is necessary for useful reporting. See [UTM parameters](/measurement/utm-parameters/).
 - **Webhook:** An HTTP message one system sends to another when a specified event occurs, often used to trigger near-real-time integrations.
+- **Web personalization:** Adapting website content or experiences for visitors or audiences using defined criteria and available data. See [web personalization](/channels/web-personalization/).
 - **Workflow:** A sequence of tasks, decisions, or handoffs designed to achieve a defined operational outcome.
