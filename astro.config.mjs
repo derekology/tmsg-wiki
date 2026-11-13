@@ -55,14 +55,12 @@ export default defineConfig({
 					],
 				},
 				{
-					label: 'Messaging & Experiences',
+					label: 'Channels',
 					items: [
 						{ label: 'Email Marketing', slug: 'email/email-marketing' },
 						{ label: 'SMS Messaging', slug: 'channels/sms-messaging' },
 						{ label: 'In-App Messaging', slug: 'channels/in-app-messaging' },
 						{ label: 'Web Personalization', slug: 'channels/web-personalization' },
-						{ label: 'EZ Texting', slug: 'tools/ez-texting' },
-						{ label: 'Twilio', slug: 'tools/twilio' },
 					],
 				},
 				{
