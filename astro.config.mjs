@@ -55,6 +55,12 @@ export default defineConfig({
 					],
 				},
 				{
+					label: 'Email Marketing',
+					items: [
+						{ label: 'Email Marketing', slug: 'email/email-marketing' },
+					],
+				},
+				{
 					label: 'Email Development',
 					items: [
 						{ label: 'AMPscript', slug: 'email/ampscript' },
