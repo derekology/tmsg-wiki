@@ -22,7 +22,7 @@ These are not interchangeable global categories, and a number type alone does no
 - Test inbound replies, opt-out handling, link destinations, and failure paths before launch.
 - Measure delivery and meaningful outcomes alongside opt-outs and complaints. A delivered message is not evidence that the recipient found it useful.
 
-SMS can complement [email marketing](/email/email-marketing/) or an automated journey, but it should not duplicate every touch across channels. Coordinate eligibility, preferences, and suppression with the systems that manage the wider customer relationship. See [marketing automation](/concepts/marketing-automation/) and [GDPR](/privacy/gdpr/) for related considerations.
+SMS can complement [email marketing](/email/email-marketing/) or an automated journey, but it should not duplicate every touch across channels. Coordinate eligibility, preferences, and suppression with the systems that manage the wider customer relationship. See [marketing automation](/concepts/marketing-automation/) and [GDPR](/privacy/gdpr/) for related considerations. For platform examples, see [EZ Texting](/tools/ez-texting/) and [Twilio](/tools/twilio/).
 
 ## Sources
 

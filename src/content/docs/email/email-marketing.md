@@ -43,7 +43,7 @@ Email can carry both versions as a MIME `multipart/alternative` message. The par
 - Monitor delivery, clicks, conversions, complaints, and unsubscribes in context; investigate unexpected changes.
 - Review automations and scheduled campaigns as products and customer expectations change, and retire messages that no longer serve a need.
 
-Related pages: [marketing automation](/concepts/marketing-automation/), [email deliverability](/lifecycle/email-deliverability/), [email rendering](/email/email-rendering/), [GDPR](/privacy/gdpr/), and the [Mailchimp](/tools/mailchimp/) and [Klaviyo](/tools/klaviyo/) profiles.
+Related pages: [marketing automation](/concepts/marketing-automation/), [email deliverability](/lifecycle/email-deliverability/), [email rendering](/email/email-rendering/), [GDPR](/privacy/gdpr/), and the [Mailchimp](/tools/mailchimp/), [Klaviyo](/tools/klaviyo/), and [Twilio](/tools/twilio/) profiles.
 
 ## Sources
 

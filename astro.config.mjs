@@ -61,6 +61,8 @@ export default defineConfig({
 						{ label: 'SMS Messaging', slug: 'channels/sms-messaging' },
 						{ label: 'In-App Messaging', slug: 'channels/in-app-messaging' },
 						{ label: 'Web Personalization', slug: 'channels/web-personalization' },
+						{ label: 'EZ Texting', slug: 'tools/ez-texting' },
+						{ label: 'Twilio', slug: 'tools/twilio' },
 					],
 				},
 				{
@@ -113,6 +115,8 @@ export default defineConfig({
 						{ label: 'Salesforce Marketing Cloud Next', slug: 'tools/salesforce-marketing-cloud-next' },
 						{ label: 'Braze', slug: 'tools/braze' },
 						{ label: 'Acoustic', slug: 'tools/acoustic' },
+						{ label: 'EZ Texting', slug: 'tools/ez-texting' },
+						{ label: 'Twilio', slug: 'tools/twilio' },
 					],
 				},
 				{
