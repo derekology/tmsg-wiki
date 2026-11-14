@@ -2,11 +2,32 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 
+const googleAnalyticsId = process.env.PUBLIC_GOOGLE_ANALYTICS_ID?.trim();
+
+if (googleAnalyticsId && !/^G-[A-Z0-9]+$/.test(googleAnalyticsId)) {
+	throw new Error('PUBLIC_GOOGLE_ANALYTICS_ID must be a Google Analytics 4 measurement ID (G-...).');
+}
+
 export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'The Marketing Systems Wiki',
 			description: 'A practical guide to marketing platforms, data, measurement, and operating systems.',
+			head: googleAnalyticsId
+				? [
+						{
+							tag: 'script',
+							attrs: {
+								async: true,
+								src: `https://www.googletagmanager.com/gtag/js?id=${googleAnalyticsId}`,
+							},
+						},
+						{
+							tag: 'script',
+							content: `window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', '${googleAnalyticsId}');`,
+						},
+					]
+				: [],
 			favicon: '/favicon.ico',
 			customCss: ['./src/styles/wikipedia.css'],
 			components: {
