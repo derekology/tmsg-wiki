@@ -3,7 +3,7 @@ title: Retention and Net Revenue Retention
 description: Measure whether customers stay and how recurring revenue from existing customers changes.
 ---
 
-**Customer retention** describes the continuation of customer relationships over a defined period. The metric must specify what counts as a retained customer and the time window. **Net revenue retention (NRR)** measures recurring revenue change from a starting group of existing customers, including expansion and contraction, while excluding revenue from newly acquired customers.
+**Customer retention** describes the continuation of customer relationships over a defined period. The metric must specify what counts as a retained customer and the time window. **[Net revenue retention (NRR)](/glossary/)** measures recurring revenue change from a starting group of existing customers, including expansion and contraction, while excluding revenue from newly acquired customers.
 
 A common period-based calculation is:
 

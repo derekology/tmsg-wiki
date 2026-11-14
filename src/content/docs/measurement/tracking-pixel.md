@@ -21,6 +21,8 @@ Website pixels can support event measurement, campaign attribution, or advertisi
 
 The U.S. Federal Trade Commission has discussed privacy risks associated with tracking pixels, including the possibility of sensitive information being exposed through pixel-based data sharing. The UK Information Commissioner's Office also addresses tracking technologies in its direct-marketing email guidance. These sources do not replace a jurisdiction-specific legal assessment.
 
+This page is general educational information, not legal advice. The cited FTC and ICO guidance is specific to the United States and United Kingdom, respectively; requirements elsewhere may differ.
+
 See [marketing attribution](/measurement/marketing-attribution/), [attribution strategies](/measurement/attribution-strategies/), [UTM parameters](/measurement/utm-parameters/), and [GDPR](/privacy/gdpr/).
 
 ## Sources

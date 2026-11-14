@@ -3,7 +3,7 @@ title: Lead Scoring and Qualification
 description: Prioritize follow-up with transparent criteria and clear MQL-to-SQL agreements.
 ---
 
-**Lead scoring** assigns values or categories to observed fit and engagement signals to help prioritize follow-up. **Lead qualification** is the broader process of deciding whether an individual, account, or opportunity is appropriate for a particular next step. An **MQL** (marketing qualified lead) and **SQL** (sales qualified lead) are common lifecycle labels, but organizations define them differently.
+**Lead scoring** assigns values or categories to observed fit and engagement signals to help prioritize follow-up. **Lead qualification** is the broader process of deciding whether an individual, account, or opportunity is appropriate for a particular next step. An [**MQL**](/glossary/) (marketing qualified lead) and [**SQL**](/glossary/) (sales qualified lead) are common lifecycle labels, but organizations define them differently.
 
 ## Build a useful model
 

@@ -3,7 +3,7 @@ title: DMARC
 description: How DMARC aligns SPF or DKIM authentication with the visible From domain.
 ---
 
-Domain-based Message Authentication, Reporting, and Conformance (DMARC) lets a domain owner publish a policy for mail using its domain in the visible `From` header. A receiving system evaluates whether SPF or DKIM passes with the required alignment, then can apply the published policy and send aggregate reports where supported.
+Domain-based Message Authentication, Reporting, and Conformance ([DMARC](/glossary/)) lets a domain owner publish a policy for mail using its domain in the visible `From` header. A receiving system evaluates whether SPF or DKIM passes with the required alignment, then can apply the published policy and send aggregate reports where supported.
 
 ## Authentication and alignment
 

@@ -3,7 +3,7 @@ title: Product-Led Growth
 description: How product use can drive acquisition, activation, expansion, and retention.
 ---
 
-Product-led growth (PLG) is a go-to-market strategy in which product experience is a primary driver of customer acquisition, expansion, or retention. People can learn about value through using the product, rather than relying only on a sales presentation or advertising. PLG is a strategy, not a pricing model: free trials and freemium offers can support it, but neither guarantees it.
+[Product-led growth (PLG)](/glossary/) is a go-to-market strategy in which product experience is a primary driver of customer acquisition, expansion, or retention. People can learn about value through using the product, rather than relying only on a sales presentation or advertising. PLG is a strategy, not a pricing model: free trials and freemium offers can support it, but neither guarantees it.
 
 ## What a PLG system needs
 

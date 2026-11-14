@@ -3,7 +3,7 @@ title: Email Deliverability
 description: The practices that help legitimate marketing messages reach recipients reliably.
 ---
 
-Email deliverability concerns whether messages are accepted and placed where recipients can find them. It is affected by technical authentication, sender reputation, recipient expectations and engagement, list quality, message practices, and mailbox-provider filtering. No vendor or single configuration can guarantee inbox placement.
+[Email deliverability](/glossary/) concerns whether messages are accepted and placed where recipients can find them. It is affected by technical authentication, sender reputation, recipient expectations and engagement, list quality, message practices, and mailbox-provider filtering. No vendor or single configuration can guarantee inbox placement.
 
 ## Technical foundations
 

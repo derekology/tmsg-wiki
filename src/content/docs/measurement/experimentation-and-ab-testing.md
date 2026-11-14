@@ -3,7 +3,7 @@ title: Experimentation and A/B Testing
 description: Design controlled tests that produce interpretable marketing and product decisions.
 ---
 
-An A/B test is a controlled experiment that compares two variants by randomly assigning eligible participants and measuring a preselected outcome. Marketers use it to test changes to landing pages, messages, offers, or product experiences. It is one form of experimentation; not every marketing question can be answered by an A/B test.
+An [A/B test](/glossary/) is a controlled experiment that compares two variants by randomly assigning eligible participants and measuring a preselected outcome. Marketers use it to test changes to landing pages, messages, offers, or product experiences. It is one form of experimentation; not every marketing question can be answered by an A/B test.
 
 ## A disciplined test
 

@@ -3,7 +3,7 @@ title: SPF
 description: How Sender Policy Framework DNS records authorize email sending hosts.
 ---
 
-Sender Policy Framework (SPF) lets a domain publish which sending hosts are authorized to send mail using that domain in the SMTP envelope identity. Receiving systems can retrieve the policy from DNS and evaluate a sending host against it. SPF is specified in [RFC 7208](https://www.rfc-editor.org/rfc/rfc7208).
+Sender Policy Framework ([SPF](/glossary/)) lets a domain publish which sending hosts are authorized to send mail using that domain in the SMTP envelope identity. Receiving systems can retrieve the policy from DNS and evaluate a sending host against it. SPF is specified in [RFC 7208](https://www.rfc-editor.org/rfc/rfc7208).
 
 ## What SPF does—and does not do
 

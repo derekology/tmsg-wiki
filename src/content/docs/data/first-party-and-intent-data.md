@@ -3,9 +3,9 @@ title: First-Party and Intent Data
 description: Distinguish data collected from your own relationships from signals about possible buying interest.
 ---
 
-**First-party data** is information an organization collects directly through its own interactions and systems, such as website or app activity, purchases, service conversations, or a CRM. The term describes a relationship to the data source; it does not by itself establish that collection or use is lawful, expected, accurate, or appropriate. Consent, notice, retention, access, and purpose still matter.
+**[First-party data](/glossary/)** is information an organization collects directly through its own interactions and systems, such as website or app activity, purchases, service conversations, or a CRM. The term describes a relationship to the data source; it does not by itself establish that collection or use is lawful, expected, accurate, or appropriate. Consent, notice, retention, access, and purpose still matter.
 
-**Intent data** is a broad label for behavioral signals used to infer interest in a topic, product, or possible purchase. First-party signals may include engagement with a company's own content or product; third-party signals may come from activity observed outside the company. The methods, coverage, and reliability differ among providers.
+**[Intent data](/glossary/)** is a broad label for behavioral signals used to infer interest in a topic, product, or possible purchase. First-party signals may include engagement with a company's own content or product; third-party signals may come from activity observed outside the company. The methods, coverage, and reliability differ among providers.
 
 ## How teams use these data
 
@@ -20,6 +20,8 @@ Marketers may use first-party information to understand customer interactions, t
 - How will the team prevent sensitive information or inappropriate inferences from driving targeting?
 
 Data protection and advertising rules vary by jurisdiction. Get appropriate legal and privacy review before activating data or combining sources.
+
+This page is general educational information, not legal advice.
 
 ## Related concepts
 

@@ -3,7 +3,7 @@ title: Demand Generation and Demand Capture
 description: How marketers create future interest and serve buyers already looking for a solution.
 ---
 
-Demand generation and demand capture describe complementary jobs in a marketing system. **Demand generation** builds awareness, understanding, and preference among people who may not be actively shopping yet. **Demand capture** helps people who are already researching a solution find and choose an offer. Organizations use the terms differently, so agree on the operational meaning before using them to set targets or assign budgets.
+[Demand generation and demand capture](/glossary/) describe complementary jobs in a marketing system. **Demand generation** builds awareness, understanding, and preference among people who may not be actively shopping yet. **Demand capture** helps people who are already researching a solution find and choose an offer. Organizations use the terms differently, so agree on the operational meaning before using them to set targets or assign budgets.
 
 ## A connected system
 

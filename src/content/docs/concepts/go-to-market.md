@@ -3,7 +3,7 @@ title: Go-to-Market Strategy
 description: How a go-to-market strategy connects a target market, customer value, channels, and execution.
 ---
 
-A go-to-market (GTM) strategy is the coordinated plan for bringing an offering to a defined market and helping intended customers discover, evaluate, buy, and use it. It connects business goals to customer needs, positioning, routes to market, and the work teams must do before and after launch. A launch campaign is one possible part of a GTM strategy, not the whole strategy.
+A [go-to-market (GTM) strategy](/glossary/) is the coordinated plan for bringing an offering to a defined market and helping intended customers discover, evaluate, buy, and use it. It connects business goals to customer needs, positioning, routes to market, and the work teams must do before and after launch. A launch campaign is one possible part of a GTM strategy, not the whole strategy.
 
 ## Build the strategy around a customer and an outcome
 

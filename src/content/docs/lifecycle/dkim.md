@@ -3,7 +3,7 @@ title: DKIM
 description: How DomainKeys Identified Mail adds verifiable signatures to email.
 ---
 
-DomainKeys Identified Mail (DKIM) lets a sending system add a cryptographic signature to an email. A receiving system can use the public key published in DNS to check whether the signed content and headers match the signature and whether the signing domain controlled the corresponding key. DKIM is specified in [RFC 6376](https://www.rfc-editor.org/rfc/rfc6376).
+DomainKeys Identified Mail ([DKIM](/glossary/)) lets a sending system add a cryptographic signature to an email. A receiving system can use the public key published in DNS to check whether the signed content and headers match the signature and whether the signing domain controlled the corresponding key. DKIM is specified in [RFC 6376](https://www.rfc-editor.org/rfc/rfc6376).
 
 ## How it works
 

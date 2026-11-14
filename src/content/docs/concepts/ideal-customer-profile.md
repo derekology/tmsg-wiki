@@ -3,7 +3,7 @@ title: Ideal Customer Profile
 description: Define the organizations or customers most likely to succeed with your offer.
 ---
 
-An ideal customer profile (ICP) describes the kind of customer for whom an offer is a strong fit and who is likely to receive meaningful value from it. In B2B marketing, an ICP usually describes an organization or account; a **buyer persona** describes a person or role involved in a decision. The two are related but answer different questions.
+An [ideal customer profile (ICP)](/glossary/) describes the kind of customer for whom an offer is a strong fit and who is likely to receive meaningful value from it. In B2B marketing, an ICP usually describes an organization or account; a **buyer persona** describes a person or role involved in a decision. The two are related but answer different questions.
 
 ## Building a usable profile
 
