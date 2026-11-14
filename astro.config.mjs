@@ -90,7 +90,17 @@ export default defineConfig({
 				},
 				{
 					label: 'Privacy & Compliance',
-					items: [{ label: 'GDPR', slug: 'privacy/gdpr' }],
+					items: [
+						{ label: 'GDPR', slug: 'privacy/gdpr' },
+						{ label: 'CCPA and CPRA', slug: 'privacy/ccpa' },
+						{ label: 'UK GDPR', slug: 'privacy/uk-gdpr' },
+						{ label: 'PIPEDA', slug: 'privacy/pipeda' },
+						{ label: "Brazil's LGPD", slug: 'privacy/lgpd' },
+						{ label: "China's PIPL", slug: 'privacy/pipl' },
+						{ label: "Australia's Privacy Act", slug: 'privacy/australia-privacy-act' },
+						{ label: 'CASL', slug: 'privacy/casl' },
+						{ label: 'CAN-SPAM Act', slug: 'privacy/can-spam' },
+					],
 				},
 				{
 					label: 'Tools & Platforms',
