@@ -47,6 +47,6 @@ Related pages: [marketing automation](/concepts/marketing-automation/), [email d
 
 ## Sources
 
-- [Mailchimp: Getting Started with Campaigns](https://mailchimp.com/help/getting-started-with-campaigns/) — reviewed 2026-11-13. Mailchimp-specific examples of scheduled and automated email campaign types; campaign names and capabilities vary by platform.
-- [Salesforce: What Is Marketing Automation?](https://www.salesforce.com/marketing/automation/guide/) — reviewed 2026-11-13. Background on workflows and actions triggered by schedules and customer behavior.
-- [RFC 2046, section 5.1.4: Multipart/Alternative](https://www.rfc-editor.org/rfc/rfc2046#section-5.1.4) — reviewed 2026-11-13. MIME's standard for alternative representations of message content.
+- [Mailchimp: Getting Started with Campaigns](https://mailchimp.com/help/getting-started-with-campaigns/) — Mailchimp-specific examples of scheduled and automated email campaign types; campaign names and capabilities vary by platform.
+- [Salesforce: What Is Marketing Automation?](https://www.salesforce.com/marketing/automation/guide/) — Background on workflows and actions triggered by schedules and customer behavior.
+- [RFC 2046, section 5.1.4: Multipart/Alternative](https://www.rfc-editor.org/rfc/rfc2046#section-5.1.4) — MIME's standard for alternative representations of message content.

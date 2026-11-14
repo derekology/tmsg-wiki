@@ -23,6 +23,6 @@ See the [Treasure AI overview](/tools/treasure-ai/) for the company and platform
 
 ## Sources
 
-- [Treasure AI product overview](https://docs.treasure.ai/products) (reviewed November 13, 2026)
-- [Treasure AI Studio overview](https://docs.treasure.ai/products/ai-studio/overview) (reviewed November 13, 2026)
-- [Treasure AI Studio security overview](https://docs.treasure.ai/products/ai-studio/security) (reviewed November 13, 2026)
+- [Treasure AI product overview](https://docs.treasure.ai/products)
+- [Treasure AI Studio overview](https://docs.treasure.ai/products/ai-studio/overview)
+- [Treasure AI Studio security overview](https://docs.treasure.ai/products/ai-studio/security)

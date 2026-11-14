@@ -26,6 +26,6 @@ SMS can complement [email marketing](/email/email-marketing/) or an automated jo
 
 ## Sources
 
-- [Twilio: Programmable Messaging and A2P 10DLC](https://www.twilio.com/docs/messaging/compliance/a2p-10dlc) — reviewed 2026-11-13. Defines A2P 10DLC and describes US registration requirements for traffic sent over 10-digit long-code numbers.
-- [Twilio: Comparison of SMS messaging in the US and Canada](https://help.twilio.com/hc/en-us/articles/360038173654-Comparison-of-SMS-messaging-in-the-US-and-Canada-for-long-codes-short-codes-and-toll-free-phone-numbers) — reviewed 2026-11-13. Compares number types and provider-specific requirements in those markets.
-- [CTIA: Messaging Principles and Best Practices](https://api.ctia.org/wp-content/uploads/2023/05/230523-CTIA-Messaging-Principles-and-Best-Practices-FINAL.pdf) — reviewed 2026-11-13. Describes wireless messaging, short codes, and responsible messaging practices.
+- [Twilio: Programmable Messaging and A2P 10DLC](https://www.twilio.com/docs/messaging/compliance/a2p-10dlc) — Defines A2P 10DLC and describes US registration requirements for traffic sent over 10-digit long-code numbers.
+- [Twilio: Comparison of SMS messaging in the US and Canada](https://help.twilio.com/hc/en-us/articles/360038173654-Comparison-of-SMS-messaging-in-the-US-and-Canada-for-long-codes-short-codes-and-toll-free-phone-numbers) — Compares number types and provider-specific requirements in those markets.
+- [CTIA: Messaging Principles and Best Practices](https://api.ctia.org/wp-content/uploads/2023/05/230523-CTIA-Messaging-Principles-and-Best-Practices-FINAL.pdf) — Describes wireless messaging, short codes, and responsible messaging practices.

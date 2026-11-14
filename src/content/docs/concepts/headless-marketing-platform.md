@@ -45,8 +45,8 @@ See the vendor profiles for the details and current caveats: [Treasure AI](/tool
 
 ## Sources
 
-- [Model Context Protocol: What is MCP?](https://modelcontextprotocol.io/docs/2026-07-28/getting-started/intro) (reviewed November 13, 2026)
-- [Treasure AI Goes Headless: A CDP Built for AI Agents](https://www.treasure.ai/blog/treasure-ai-goes-headless) (published October 14, 2026; reviewed November 13, 2026)
-- [Treasure AI MCP Server documentation](https://docs.treasure.ai/getting-started/ai/mcp-server-docs) (reviewed November 13, 2026)
-- [Headless Hightouch: Marketing in the AI tools you already use](https://hightouch.com/blog/headless-hightouch) (published October 29, 2026; reviewed November 13, 2026)
-- [Hightouch MCP server documentation](https://hightouch.com/docs/ai-integrations/mcp-server) (reviewed November 13, 2026)
+- [Model Context Protocol: What is MCP?](https://modelcontextprotocol.io/docs/2026-07-28/getting-started/intro)
+- [Treasure AI Goes Headless: A CDP Built for AI Agents](https://www.treasure.ai/blog/treasure-ai-goes-headless) (published October 14, 2026)
+- [Treasure AI MCP Server documentation](https://docs.treasure.ai/getting-started/ai/mcp-server-docs)
+- [Headless Hightouch: Marketing in the AI tools you already use](https://hightouch.com/blog/headless-hightouch) (published October 29, 2026)
+- [Hightouch MCP server documentation](https://hightouch.com/docs/ai-integrations/mcp-server)

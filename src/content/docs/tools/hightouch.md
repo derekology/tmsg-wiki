@@ -23,7 +23,7 @@ Compare Hightouch with [Twilio Segment](/tools/segment/) and [Treasure AI](/tool
 
 ## Sources
 
-- [Hightouch: Data activation concepts](https://hightouch.com/docs/concepts) (reviewed November 13, 2026)
-- [Hightouch: Syncs overview](https://hightouch.com/docs/syncs/overview) (reviewed November 13, 2026)
-- [Headless Hightouch: Marketing in the AI tools you already use](https://hightouch.com/blog/headless-hightouch) (published October 29, 2026; reviewed November 13, 2026)
-- [Hightouch MCP server documentation](https://hightouch.com/docs/ai-integrations/mcp-server) (reviewed November 13, 2026)
+- [Hightouch: Data activation concepts](https://hightouch.com/docs/concepts)
+- [Hightouch: Syncs overview](https://hightouch.com/docs/syncs/overview)
+- [Headless Hightouch: Marketing in the AI tools you already use](https://hightouch.com/blog/headless-hightouch) (published October 29, 2026)
+- [Hightouch MCP server documentation](https://hightouch.com/docs/ai-integrations/mcp-server)

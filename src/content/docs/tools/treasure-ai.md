@@ -25,10 +25,10 @@ Map sources, identity rules, downstream channels, existing CRM and warehouse res
 
 ## Sources
 
-- [Treasure AI: Why We're Becoming Treasure AI](https://www.treasure.ai/blog/treasure-ai-announcement) (reviewed November 13, 2026)
-- [Treasure AI Goes Headless: A CDP Built for AI Agents](https://www.treasure.ai/blog/treasure-ai-goes-headless) (published October 14, 2026; reviewed November 13, 2026)
-- [Treasure AI product overview](https://docs.treasure.ai/products) (reviewed November 13, 2026)
-- [Treasure AI Personalization Studio documentation](https://docs.treasure.ai/products/marketing-cloud/personalization-studio) (reviewed November 13, 2026)
-- [Treasure AI Engage Studio documentation](https://docs.treasure.ai/products/marketing-cloud/engage-studio) (reviewed November 13, 2026)
-- [Treasure AI MCP Server documentation](https://docs.treasure.ai/getting-started/ai/mcp-server-docs) (reviewed November 13, 2026)
-- [Treasure AI](https://www.treasure.ai/) (reviewed November 13, 2026)
+- [Treasure AI: Why We're Becoming Treasure AI](https://www.treasure.ai/blog/treasure-ai-announcement)
+- [Treasure AI Goes Headless: A CDP Built for AI Agents](https://www.treasure.ai/blog/treasure-ai-goes-headless) (published October 14, 2026)
+- [Treasure AI product overview](https://docs.treasure.ai/products)
+- [Treasure AI Personalization Studio documentation](https://docs.treasure.ai/products/marketing-cloud/personalization-studio)
+- [Treasure AI Engage Studio documentation](https://docs.treasure.ai/products/marketing-cloud/engage-studio)
+- [Treasure AI MCP Server documentation](https://docs.treasure.ai/getting-started/ai/mcp-server-docs)
+- [Treasure AI](https://www.treasure.ai/)

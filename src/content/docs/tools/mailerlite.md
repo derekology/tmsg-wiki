@@ -32,9 +32,9 @@ Creating a new MailerLite account does not replace or automatically change a Cla
 
 ## Sources
 
-- [MailerLite features](https://www.mailerlite.com/features) (reviewed 2026-10-23)
-- [MailerLite Help Center](https://help.mailerlite.com/) (reviewed 2026-10-23)
-- [MailerLite developer documentation](https://developers.mailerlite.com/) (reviewed 2026-10-23)
-- [MailerLite vs. Legacy (Classic)](https://www.mailerlite.com/mailerlite-vs-mailerlite-classic) (reviewed 2026-10-23)
-- [Migrate from MailerLite Legacy (Classic) to the new MailerLite](https://www.mailerlite.com/help/migration) (reviewed 2026-10-23)
-- [Legacy (Classic) Free plans discontinued](https://www.mailerlite.com/help/discontinuation-of-free-plans-in-mailerlite-classic) (reviewed 2026-10-23)
+- [MailerLite features](https://www.mailerlite.com/features)
+- [MailerLite Help Center](https://help.mailerlite.com/)
+- [MailerLite developer documentation](https://developers.mailerlite.com/)
+- [MailerLite vs. Legacy (Classic)](https://www.mailerlite.com/mailerlite-vs-mailerlite-classic)
+- [Migrate from MailerLite Legacy (Classic) to the new MailerLite](https://www.mailerlite.com/help/migration)
+- [Legacy (Classic) Free plans discontinued](https://www.mailerlite.com/help/discontinuation-of-free-plans-in-mailerlite-classic)

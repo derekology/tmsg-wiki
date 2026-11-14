@@ -15,6 +15,6 @@ Twilio SendGrid is distinct from [Twilio Segment](/tools/segment/), which is a c
 
 ## Sources
 
-- [Twilio: Programmable Messaging documentation](https://www.twilio.com/docs/messaging) — reviewed 2026-11-13. Documents the messaging API and supported SMS, MMS, RCS, and WhatsApp channels.
-- [Twilio: SendGrid developer documentation](https://www.twilio.com/docs/sendgrid/for-developers) — reviewed 2026-11-13. Describes SendGrid's email APIs, SMTP, templates, and developer tools.
-- [Twilio: Programmable Voice documentation](https://www.twilio.com/docs/voice) — reviewed 2026-11-13. Documents application-based inbound and outbound calling.
+- [Twilio: Programmable Messaging documentation](https://www.twilio.com/docs/messaging) — Documents the messaging API and supported SMS, MMS, RCS, and WhatsApp channels.
+- [Twilio: SendGrid developer documentation](https://www.twilio.com/docs/sendgrid/for-developers) — Describes SendGrid's email APIs, SMTP, templates, and developer tools.
+- [Twilio: Programmable Voice documentation](https://www.twilio.com/docs/voice) — Documents application-based inbound and outbound calling.

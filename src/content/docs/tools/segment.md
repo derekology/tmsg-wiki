@@ -25,7 +25,7 @@ Compare Segment with other CDP approaches, including [Treasure AI](/tools/treasu
 
 ## Sources
 
-- [Twilio Segment: Connections overview](https://www.twilio.com/docs/segment/connections) (reviewed November 13, 2026)
-- [Twilio Segment: Unify overview](https://www.twilio.com/docs/segment/unify) (reviewed November 13, 2026)
-- [Twilio Segment: Tracking Plans](https://www.twilio.com/docs/segment/protocols/tracking-plan/create) (reviewed November 13, 2026)
-- [CDP Institute: What is a Customer Data Platform?](https://www.cdpinstitute.org/what-is-a-cdp/) (reviewed November 13, 2026)
+- [Twilio Segment: Connections overview](https://www.twilio.com/docs/segment/connections)
+- [Twilio Segment: Unify overview](https://www.twilio.com/docs/segment/unify)
+- [Twilio Segment: Tracking Plans](https://www.twilio.com/docs/segment/protocols/tracking-plan/create)
+- [CDP Institute: What is a Customer Data Platform?](https://www.cdpinstitute.org/what-is-a-cdp/)

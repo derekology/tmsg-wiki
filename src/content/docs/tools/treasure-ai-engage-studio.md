@@ -23,6 +23,6 @@ See the [Treasure AI overview](/tools/treasure-ai/) for the broader CDP and agen
 
 ## Sources
 
-- [Treasure AI product overview](https://docs.treasure.ai/products) (reviewed November 13, 2026)
-- [Treasure AI Engage Studio documentation](https://docs.treasure.ai/products/marketing-cloud/engage-studio) (reviewed November 13, 2026)
-- [Treasure AI Personalization Studio documentation](https://docs.treasure.ai/products/marketing-cloud/personalization-studio) (reviewed November 13, 2026)
+- [Treasure AI product overview](https://docs.treasure.ai/products)
+- [Treasure AI Engage Studio documentation](https://docs.treasure.ai/products/marketing-cloud/engage-studio)
+- [Treasure AI Personalization Studio documentation](https://docs.treasure.ai/products/marketing-cloud/personalization-studio)

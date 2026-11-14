@@ -19,5 +19,5 @@ Related pages: [SMS messaging](/channels/sms-messaging/), [email marketing](/ema
 
 ## Sources
 
-- [Braze documentation: In-app messages](https://www.braze.com/docs/developer_guide/in_app_messages) — reviewed 2026-11-13. Describes web and mobile in-app message formats, SDK implementation, and clearing user-specific data on logout.
-- [Braze: In-app message prep guide](https://www.braze.com/docs/user_guide/channels/in_app_messages/best_practices/prep_guide) — reviewed 2026-11-13. Covers targeting, expiration, app versions, device testing, and message content considerations.
+- [Braze documentation: In-app messages](https://www.braze.com/docs/developer_guide/in_app_messages) — Describes web and mobile in-app message formats, SDK implementation, and clearing user-specific data on logout.
+- [Braze: In-app message prep guide](https://www.braze.com/docs/user_guide/channels/in_app_messages/best_practices/prep_guide) — Covers targeting, expiration, app versions, device testing, and message content considerations.

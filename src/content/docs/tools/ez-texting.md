@@ -15,6 +15,6 @@ See [SMS messaging](/channels/sms-messaging/) for channel considerations and [ma
 
 ## Sources
 
-- [EZ Texting: Features](https://www.eztexting.com/features) — reviewed 2026-11-13. Describes campaign texting, two-way messaging, workflows, contact management, and supported message formats.
-- [EZ Texting: SMS API](https://www.eztexting.com/features/sms-api) — reviewed 2026-11-13. Documents programmatic sending, contact management, two-way messages, and webhooks.
-- [EZ Texting: Integrations](https://www.eztexting.com/integrations) — reviewed 2026-11-13. Lists vendor-supported integrations; availability and integration behavior can change.
+- [EZ Texting: Features](https://www.eztexting.com/features) — Describes campaign texting, two-way messaging, workflows, contact management, and supported message formats.
+- [EZ Texting: SMS API](https://www.eztexting.com/features/sms-api) — Documents programmatic sending, contact management, two-way messages, and webhooks.
+- [EZ Texting: Integrations](https://www.eztexting.com/integrations) — Lists vendor-supported integrations; availability and integration behavior can change.

@@ -19,5 +19,5 @@ Related pages: [experimentation and A/B testing](/measurement/experimentation-an
 
 ## Sources
 
-- [Adobe Target: What Is an Experience Targeting (XT) Activity?](https://experienceleague.adobe.com/en/docs/target/using/activities/experience-targeting/experience-target) — reviewed 2026-11-13. Describes targeting content to audiences using marketer-defined criteria.
-- [Adobe Target Business Practitioner Guide](https://experienceleague.adobe.com/en/docs/target/using/target-home) — reviewed 2026-11-13. Overview of audiences, experiences, and activities in Adobe Target.
+- [Adobe Target: What Is an Experience Targeting (XT) Activity?](https://experienceleague.adobe.com/en/docs/target/using/activities/experience-targeting/experience-target) — Describes targeting content to audiences using marketer-defined criteria.
+- [Adobe Target Business Practitioner Guide](https://experienceleague.adobe.com/en/docs/target/using/target-home) — Overview of audiences, experiences, and activities in Adobe Target.
