@@ -2,10 +2,10 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 
-const googleAnalyticsId = process.env.PUBLIC_GOOGLE_ANALYTICS_ID?.trim();
+const googleTagId = process.env.PUBLIC_GOOGLE_TAG_ID?.trim();
 
-if (googleAnalyticsId && !/^G-[A-Z0-9]+$/.test(googleAnalyticsId)) {
-	throw new Error('PUBLIC_GOOGLE_ANALYTICS_ID must be a Google Analytics 4 measurement ID (G-...).');
+if (googleTagId && !/^GTM-[A-Z0-9]+$/.test(googleTagId)) {
+	throw new Error('PUBLIC_GOOGLE_TAG_ID must be a Google Tag Manager container ID (GTM-...).');
 }
 
 export default defineConfig({
@@ -13,18 +13,20 @@ export default defineConfig({
 		starlight({
 			title: 'The Marketing Systems Wiki',
 			description: 'A practical guide to marketing platforms, data, measurement, and operating systems.',
-			head: googleAnalyticsId
+			head: googleTagId
 				? [
 						{
 							tag: 'script',
 							attrs: {
 								async: true,
-								src: `https://www.googletagmanager.com/gtag/js?id=${googleAnalyticsId}`,
+								src: `https://www.googletagmanager.com/gtm.js?id=${googleTagId}`,
 							},
 						},
 						{
 							tag: 'script',
-							content: `window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', '${googleAnalyticsId}');`,
+							content: `window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());`,
 						},
 					]
 				: [],
