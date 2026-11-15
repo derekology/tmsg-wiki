@@ -57,13 +57,16 @@ This glossary explains terms used across marketing work and its supporting syste
 - **Product-led growth (PLG):** A go-to-market strategy in which the product experience is a primary driver of acquisition, expansion, or retention. See [product-led growth](/concepts/product-led-growth/).
 - **Retention:** Continued customer activity or relationship over a defined period; the cohort, event, and time window must be specified. See [retention and net revenue retention](/lifecycle/retention-and-net-revenue-retention/).
 - **Revenue operations (RevOps):** Coordination of processes, data, and systems across revenue-related teams, commonly marketing, sales, and customer success. See [revenue operations](/concepts/revenue-operations/).
+- **Second-party data:** Another organization’s first-party data that it shares directly with a receiving organization, often through a partnership. The sharing arrangement does not by itself establish that the data may be used for every purpose.
 - **Segment:** A subset of records that meet a defined set of criteria. The term can refer to an audience definition or, in a product name, a vendor; it does not imply a particular data architecture.
 - **Short code:** A short number used for application-to-person messaging in some markets; availability, registration, and capabilities vary by country and carrier. See [SMS messaging](/channels/sms-messaging/).
 - **SMS (Short Message Service):** Text messaging delivered through mobile networks. Business messaging may use long codes or short codes, depending on market and use. See [SMS messaging](/channels/sms-messaging/).
 - **SQL (sales qualified lead):** A lifecycle label for a lead that meets an organization's agreed criteria for sales follow-up; definitions and handoff rules vary. See [lead scoring and qualification](/concepts/lead-scoring-and-qualification/).
 - **SPF (Sender Policy Framework):** An email authentication method that lets a domain publish which hosts may send using its SMTP identity. See [SPF](/lifecycle/spf/).
 - **Sync:** A configured transfer or update of data between systems. A sync may be scheduled or event-driven and can fail, lag, or apply destination-specific transformations.
+- **Third-party data:** Information collected or assembled by an organization other than the one using it, often from multiple sources. The term describes the relationship between the collecting and using organizations, not the data's quality or the permissions that apply to its use.
 - **UTM parameters:** Campaign tags added to URLs to help analytics systems classify traffic sources and campaigns. Consistent naming is necessary for useful reporting. See [UTM parameters](/measurement/utm-parameters/).
 - **Webhook:** An HTTP message one system sends to another when a specified event occurs, often used to trigger near-real-time integrations.
 - **Web personalization:** Adapting website content or experiences for visitors or audiences using defined criteria and available data. See [web personalization](/channels/web-personalization/).
 - **Workflow:** A sequence of tasks, decisions, or handoffs designed to achieve a defined operational outcome.
+- **Zero-party data:** Information a person intentionally and proactively shares with an organization, such as stated preferences or interests. Sharing it does not by itself establish permission for every use.
