@@ -17,6 +17,10 @@ Validate the event plan, naming conventions, consent behavior, and cross-domain 
 
 GA4 is distinct from [Google Tag Manager](/tools/google-tag-manager/), which helps deploy and manage tags. It can also complement product analytics tools such as [Mixpanel](/tools/mixpanel/) and data platforms such as [Segment](/tools/segment/).
 
+## Evaluation questions
+
+Which events and outcomes need to be measured, and can the implementation capture them consistently across relevant web and app experiences? Consider consent behavior, reporting definitions, attribution needs, and how analytics results will be reconciled with operational systems. Compare GA4 with tools such as [Mixpanel](/tools/mixpanel/) based on the questions, data model, and analysis workflows your teams require.
+
 ## Sources
 
 - [Google Analytics: Introducing the next generation of Google Analytics](https://support.google.com/analytics/answer/10089681?hl=en)

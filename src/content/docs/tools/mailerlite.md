@@ -30,6 +30,10 @@ MailerLite describes the new platform as including landing pages and websites in
 
 Creating a new MailerLite account does not replace or automatically change a Classic account. Migration is an explicit process for selected asset categories, such as subscribers, forms, templates, and automations. Sent-campaign statistics do not migrate, and subscriber changes made in the new platform do not automatically sync back to Classic. Review the vendor's [migration guide](https://www.mailerlite.com/help/migration) before planning a transition.
 
+## Evaluation questions
+
+Which version of MailerLite is in use, and does it provide the required campaigns, automation, reporting, and integrations? For a move between Classic and the current platform, which data and assets will migrate, what will not transfer, and how will ongoing changes be handled? Also compare consent and suppression workflows, support, volume, and commercial requirements.
+
 ## Sources
 
 - [MailerLite features](https://www.mailerlite.com/features)

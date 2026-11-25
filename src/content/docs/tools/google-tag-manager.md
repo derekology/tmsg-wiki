@@ -15,6 +15,10 @@ GTM is not itself an analytics system, consent-management platform, or guarantee
 
 [Google Analytics 4](/tools/google-analytics-4/) analyzes collected events; GTM can manage tags that send data to GA4 and other destinations. Keep a documented event plan shared between marketers, analysts, and developers so tag names and business definitions do not drift.
 
+## Evaluation questions
+
+Which tags and destinations need to be managed, and how will the site or app provide the data they require? Evaluate publishing permissions, consent handling, testing and review practices, integration ownership, and how tag changes will be monitored. Confirm that GTM's role is distinct from analytics and consent-management systems in the planned stack.
+
 ## Sources
 
 - [Google Tag Manager: Introduction to Tag Manager](https://support.google.com/tagmanager/answer/6102821?hl=en)

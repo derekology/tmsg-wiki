@@ -11,9 +11,9 @@ A team may collect signups, organize contacts into audiences or segments, send a
 
 Keep the contact model and consent history understandable. Review how imports, unsubscribes, bounces, and duplicates affect active audiences. If Mailchimp is connected to a shop, CRM, or analytics tool, verify which system owns customer details and how updates are reconciled.
 
-## Compare by job to be done
+## Evaluation questions
 
-Mailchimp can overlap with [HubSpot](/tools/hubspot/), [Klaviyo](/tools/klaviyo/), and [Adobe Marketo Engage](/tools/marketo-engage/), but the overlap varies by feature and plan. Compare automation complexity, integrations, audience management, reporting, permissions, deliverability controls, and cost for your use case. Check current pricing and feature limits directly with the vendor.
+Which email, audience, and automation workflows are required, and which depend on the current plan? Compare Mailchimp with [HubSpot](/tools/hubspot/), [Klaviyo](/tools/klaviyo/), and [Adobe Marketo Engage](/tools/marketo-engage/) based on automation complexity, integrations, reporting, permissions, deliverability controls, and cost for the use case. Check current pricing and feature limits directly with the vendor.
 
 ## Sources
 

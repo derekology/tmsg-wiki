@@ -11,9 +11,9 @@ Teams can use the product to personalize selected website content for audiences 
 
 This makes identity, event quality, audience rules, and website implementation important parts of the work. Test the experience for visitors who do not qualify or when personalization cannot load, and define how consent and other privacy preferences affect data collection and targeting.
 
-## Evaluation considerations
+## Evaluation questions
 
-Check how the product fits with the site's content and release process, how pages and content locations are registered, what engineering work is needed to install and maintain the SDK, and how campaigns are previewed and measured. Confirm how audience membership and real-time signals are updated, and how fallback content behaves during errors or latency.
+How does the product fit the site's content and release processes, and what engineering work is needed to install and maintain the SDK? Check how pages and content locations are registered, how campaigns are previewed and measured, and how audience membership and real-time signals are updated. Test fallback content during errors or latency.
 
 Treasure AI Engage Studio also describes in-browser messaging and personalized in-product experiences, so the products' documented capabilities overlap in some areas. Compare the actual campaign workflows, channels, configuration, and entitlements available to your organization rather than assuming a strict boundary between them.
 

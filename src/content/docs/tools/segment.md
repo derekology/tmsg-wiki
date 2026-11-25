@@ -17,9 +17,9 @@ Start with business questions and define events and properties that are necessar
 
 Routing data through a CDP does not make it accurate, permitted, or appropriate for every destination. Set destination-specific controls, verify what data is forwarded, and test how consent changes and deletion requests propagate. Also account for the engineering work of source instrumentation, identity design, schema maintenance, monitoring, and troubleshooting.
 
-## CDP or integration layer?
+## Evaluation questions
 
-The CDP Institute describes CDPs in terms of persistent customer records and making governed customer context available to other systems. Products differ in how they implement identity, storage, governance, and activation. Evaluate Segment against that broader category as well as against integration tools such as [Zapier](/tools/zapier/): the categories can overlap in data movement but address different implementation needs.
+Does the use case require a customer data platform with persistent profiles and governed activation, or primarily an integration layer for moving data? The CDP Institute describes CDPs in terms of persistent customer records and making governed customer context available to other systems. Products differ in identity, storage, governance, and activation. Compare Segment with other CDP approaches and with integration tools such as [Zapier](/tools/zapier/) based on those needs and the team's implementation capacity.
 
 Compare Segment with other CDP approaches, including [Treasure AI](/tools/treasure-ai/) and [Hightouch](/tools/hightouch/), by identifying which system should own customer records, audiences, and activation. Review event collection, identity resolution, schema enforcement, privacy controls, destination support, observability, and the team's engineering capacity.
 

@@ -13,7 +13,9 @@ Marketing teams can use an automation platform to coordinate audiences, messages
 
 Adobe's setup material calls out CRM sync, tracking code, and email deliverability configuration. Assign owners for those dependencies, test how records and activities synchronize, and monitor failures after launch. Access to a platform does not itself guarantee good data, compliant consent, or successful email placement.
 
-Marketo is often evaluated alongside broader platforms such as [HubSpot](/tools/hubspot/) and [Salesforce](/tools/salesforce/), or alongside email-focused products such as [Klaviyo](/tools/klaviyo/) and [Mailchimp](/tools/mailchimp/). These products differ in scope and workflows; compare actual requirements, integrations, operating effort, and current commercial terms.
+## Evaluation questions
+
+How should CRM records and marketing activity synchronize, and which teams own lifecycle definitions and handoffs? Compare Marketo with broader platforms such as [HubSpot](/tools/hubspot/) and [Salesforce](/tools/salesforce/), or email-focused products such as [Klaviyo](/tools/klaviyo/) and [Mailchimp](/tools/mailchimp/), based on actual requirements, integrations, administration effort, and current commercial terms.
 
 ## Related concepts
 

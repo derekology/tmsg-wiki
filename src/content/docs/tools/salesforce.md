@@ -11,9 +11,9 @@ A CRM is not just an address book. Its record model and processes can support ac
 
 Map ownership before implementation: decide which system creates each record, which fields are authoritative, how changes synchronize, and how teams handle duplicates and lifecycle transitions. Document permissions and reporting definitions as carefully as the integration diagram.
 
-## How to compare it
+## Evaluation questions
 
-Salesforce overlaps with [HubSpot](/tools/hubspot/) in CRM and marketing workflows and can be connected to dedicated automation products such as [Adobe Marketo Engage](/tools/marketo-engage/). Salesforce marketing products also include [Marketing Cloud Engagement](/tools/salesforce-marketing-cloud/) and the newer [Marketing Cloud Next](/tools/salesforce-marketing-cloud-next/), which have different platform foundations and should be evaluated separately. A useful evaluation compares the required data model, process flexibility, administration effort, integrations, reporting, user roles, and total operating cost. There is no universal best fit; an expansive platform can be a poor match if the organization cannot govern and maintain it.
+Which CRM records, processes, and integrations need to be supported, and which Salesforce marketing products are in scope? Salesforce overlaps with [HubSpot](/tools/hubspot/) in some CRM and marketing workflows and can connect to dedicated automation products such as [Adobe Marketo Engage](/tools/marketo-engage/). [Marketing Cloud Engagement](/tools/salesforce-marketing-cloud/) and [Marketing Cloud Next](/tools/salesforce-marketing-cloud-next/) have different platform foundations and should be evaluated separately. Compare the required data model, process flexibility, administration effort, integrations, reporting, user roles, and total operating cost.
 
 ## Related concepts
 

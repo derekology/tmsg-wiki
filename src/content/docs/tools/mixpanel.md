@@ -11,9 +11,9 @@ Product analytics can help a growth or lifecycle team ask questions beyond ad cl
 
 Write down the behaviors that represent meaningful progress before tracking everything. Agree on event names and properties across engineering, product, and marketing. Test identity handling across devices or sessions, filter internal traffic where appropriate, and avoid sending personal information that is not needed for the analysis.
 
-## Product analytics and web analytics
+## Evaluation questions
 
-[Google Analytics 4](/tools/google-analytics-4/) provides web and app measurement with an event-based model; Mixpanel is oriented toward analyzing product usage with its events, users, and properties model. There is overlap, but reports, identity, integrations, and governance differ. Some teams use both for different questions, then reconcile definitions instead of assuming their counts will match.
+Do teams need to analyze product behaviors such as onboarding, activation, funnels, and retention, and can those behaviors be instrumented consistently? Compare Mixpanel with [Google Analytics 4](/tools/google-analytics-4/) based on the questions each tool should answer, identity and event models, integrations, privacy controls, and analyst workflows. Some teams use both for different questions, then reconcile definitions rather than assuming their counts will match.
 
 Compare tools by the questions they answer, data access and retention, instrumentation effort, privacy controls, and how well analysts and operators can use the resulting reports.
 

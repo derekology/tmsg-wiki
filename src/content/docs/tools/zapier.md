@@ -11,9 +11,9 @@ An automation might send a form submission to a CRM, notify an owner, or create 
 
 Before launch, check field mapping, duplicate handling, retries, permissions, and how failures are surfaced. Decide which system owns each record and whether a workflow should create or update it. Avoid moving sensitive data to services or accounts that are not approved for it. For business-critical processes, record the workflow's trigger, actions, expected outcomes, and escalation path.
 
-## Compared with other integration approaches
+## Evaluation questions
 
-Zapier is often considered alongside integration and automation options such as Make, n8n, or [Segment](/tools/segment/). These are not always direct substitutes: compare the integrations and controls needed, operational complexity, data volume, latency, governance, and the team's technical capacity. A code-based integration may be preferable when the process needs stronger testing or specialized behavior.
+Which applications and workflow steps need to be connected, and what controls are needed for permissions, retries, and failures? Compare Zapier with integration and automation options such as Make, n8n, or [Segment](/tools/segment/) based on required integrations, operational complexity, data volume, latency, governance, and the team's technical capacity. A code-based integration may fit better when the process requires specialized behavior or stronger testing.
 
 ## Sources
 

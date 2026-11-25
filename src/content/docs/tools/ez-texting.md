@@ -13,6 +13,10 @@ Before selecting a platform, map how contacts enter the program, how consent and
 
 See [SMS messaging](/channels/sms-messaging/) for channel considerations and [marketing automation](/concepts/marketing-automation/) for journey design.
 
+## Evaluation questions
+
+Compare EZ Texting with options such as [Twilio](/tools/twilio/) based on the countries and message types needed, two-way conversation workflows, contact and consent management, integrations, API requirements, reporting, and operating effort. Confirm sender requirements, current capabilities, and commercial terms with the vendor.
+
 ## Sources
 
 - [EZ Texting: Features](https://www.eztexting.com/features) — Describes campaign texting, two-way messaging, workflows, contact management, and supported message formats.

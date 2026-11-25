@@ -19,9 +19,9 @@ Treasure AI describes Activation as AI-powered engagement and personalization us
 
 However, treat claims about automation or business outcomes as vendor positioning until tested against a defined use case. Establish human approval boundaries and ensure data access follows the same privacy and governance rules as other marketing systems.
 
-## How to evaluate it
+## Evaluation questions
 
-Map sources, identity rules, downstream channels, existing CRM and warehouse responsibilities, and data retention needs. Ask which capabilities are generally available to your organization, which depend on edition or deployment, how integrations and migration work, and how the agent features are governed. Compare the system with [Hightouch](/tools/hightouch/) and [Twilio Segment](/tools/segment/) based on which platform should own customer records, audience definitions, and activation.
+Which systems provide source data, and where should customer records, audiences, and activation be managed? Compare Treasure AI with [Hightouch](/tools/hightouch/) and [Twilio Segment](/tools/segment/) based on identity rules, integrations, warehouse and CRM responsibilities, retention needs, and implementation effort. Confirm which capabilities are available to your organization, what depends on edition or deployment, how migration works, and how any agent features are permissioned, reviewed, and logged.
 
 ## Sources
 

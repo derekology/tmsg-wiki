@@ -9,7 +9,9 @@ Mailjet provides email products and developer interfaces for sending and managin
 
 An organization may consider Mailjet for campaign email, application-triggered email, or a combination of both. These use cases have different operational needs: marketing campaigns require audience, consent, and suppression controls, while transactional messages need reliable application integration, event handling, and appropriate content boundaries. A shared provider does not remove the need to distinguish these streams.
 
-Evaluation should cover:
+## Evaluation questions
+
+How will marketing and transactional email be separated and operated? Evaluate:
 
 - Sending architecture, authentication, domain setup, and integration ownership.
 - How templates, approvals, audience data, preferences, and suppression are managed.
