@@ -9,13 +9,15 @@ Mixpanel is a product analytics platform. Its documentation introduces three cor
 
 Product analytics can help a growth or lifecycle team ask questions beyond ad clicks: Did people complete onboarding? Which actions precede activation? Do customer groups return after a first use? The usefulness of any report depends on a consistent event taxonomy, appropriate user identifiers, and reliable instrumentation.
 
+## Evaluation considerations
+
+Model an onboarding or activation funnel using Mixpanel events, user identifiers, and properties. Check whether the instrumentation can distinguish the steps, associate activity across relevant sessions or devices, and produce useful cohorts and retention analysis.
+
+Compare the same question in [Google Analytics 4](/tools/google-analytics-4/) where appropriate, accounting for differences in event definitions and identity rather than expecting counts to match. Assess the event access, retention, privacy controls, and engineering effort needed for the analysis.
+
+## Implementation considerations
+
 Write down the behaviors that represent meaningful progress before tracking everything. Agree on event names and properties across engineering, product, and marketing. Test identity handling across devices or sessions, filter internal traffic where appropriate, and avoid sending personal information that is not needed for the analysis.
-
-## Evaluation questions
-
-Do teams need to analyze product behaviors such as onboarding, activation, funnels, and retention, and can those behaviors be instrumented consistently? Compare Mixpanel with [Google Analytics 4](/tools/google-analytics-4/) based on the questions each tool should answer, identity and event models, integrations, privacy controls, and analyst workflows. Some teams use both for different questions, then reconcile definitions rather than assuming their counts will match.
-
-Compare tools by the questions they answer, data access and retention, instrumentation effort, privacy controls, and how well analysts and operators can use the resulting reports.
 
 ## Sources
 

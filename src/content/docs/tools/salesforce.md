@@ -9,11 +9,15 @@ Salesforce is a CRM platform used to manage customer and prospect relationships 
 
 A CRM is not just an address book. Its record model and processes can support account and contact management, lead follow-up, opportunity tracking, and coordination with marketing systems. Salesforce may be the system of record for some of those objects while other platforms handle campaign execution, analytics, or data movement.
 
+## Evaluation considerations
+
+Trace a lead from capture through qualification and opportunity reporting, identifying which Salesforce records and connected marketing products are involved. Check how duplicate records, ownership changes, permissions, and synchronization with a marketing automation system affect that process.
+
+Compare the required CRM configuration and administration with [HubSpot](/tools/hubspot/) or a Salesforce integration with [Adobe Marketo Engage](/tools/marketo-engage/). If a Salesforce marketing product is proposed, distinguish [Marketing Cloud Engagement](/tools/salesforce-marketing-cloud/) from [Marketing Cloud Next](/tools/salesforce-marketing-cloud-next/) and assess the specific product and edition.
+
+## Implementation considerations
+
 Map ownership before implementation: decide which system creates each record, which fields are authoritative, how changes synchronize, and how teams handle duplicates and lifecycle transitions. Document permissions and reporting definitions as carefully as the integration diagram.
-
-## Evaluation questions
-
-Which CRM records, processes, and integrations need to be supported, and which Salesforce marketing products are in scope? Salesforce overlaps with [HubSpot](/tools/hubspot/) in some CRM and marketing workflows and can connect to dedicated automation products such as [Adobe Marketo Engage](/tools/marketo-engage/). [Marketing Cloud Engagement](/tools/salesforce-marketing-cloud/) and [Marketing Cloud Next](/tools/salesforce-marketing-cloud-next/) have different platform foundations and should be evaluated separately. Compare the required data model, process flexibility, administration effort, integrations, reporting, user roles, and total operating cost.
 
 ## Related concepts
 

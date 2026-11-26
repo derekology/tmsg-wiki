@@ -11,11 +11,11 @@ Marketing teams can use Engage Studio to coordinate campaigns across supported c
 
 The CDP connection is intended to let campaigns use customer attributes and events and return campaign activity to the data platform. Treat optimization and AI features as vendor-described capabilities, and validate their availability and suitability with a defined use case.
 
-## Evaluation questions
+## Evaluation considerations
 
-Which channels and campaign types are available to your organization, and how are customer identity and consent applied? Verify how eligibility, suppression, journey exits, frequency controls, channel failures, unsubscribe behavior, and reporting work. Test these behaviors before relying on automated journeys.
+Confirm which outbound channels are available in the account, especially where access is limited. Trace a CDP audience and event into an Engage Studio journey and its campaign reporting; test how a changed preference, journey exit, channel failure, or unsubscribe affects a person already in the journey.
 
-Engage Studio and [Treasure AI Personalization Studio](/tools/treasure-ai-personalization-studio/) have some documented overlap in web and in-product experiences. Compare their workflows and entitlements directly, especially if you need both outbound messaging and on-site personalization.
+Engage Studio and [Treasure AI Personalization Studio](/tools/treasure-ai-personalization-studio/) have documented overlap in web and in-product experiences. Compare the authoring, targeting, reporting, and entitlements for the intended experience, especially if it combines outbound messaging and on-site personalization.
 
 ## Related profiles
 

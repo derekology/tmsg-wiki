@@ -9,11 +9,15 @@ Braze is a customer engagement platform for coordinating personalized communicat
 
 A marketing or lifecycle team can use Braze to respond to customer events with coordinated messages across channels such as email, push, in-app messaging, and SMS where enabled. This makes event quality, profile identity, message eligibility, consent, and frequency controls important parts of implementation—not just copy and campaign design.
 
+## Evaluation considerations
+
+Use a representative event to evaluate how Braze associates activity with a profile and moves someone through a Canvas. Check re-entry, exit, cross-channel suppression, and preference changes while the person is in the journey; confirm which channels and integrations are enabled in the proposed account.
+
+Compare the work of maintaining event and profile data and operating these journeys with [Klaviyo](/tools/klaviyo/), [Acoustic](/tools/acoustic/), and [Salesforce Marketing Cloud Engagement](/tools/salesforce-marketing-cloud/).
+
+## Implementation considerations
+
 Teams should define the source of truth for profile and preference data, specify how anonymous and known activity is handled, and test cross-channel suppression and journey exit behavior. A messaging platform does not resolve unclear consent or poorly governed data by itself.
-
-## Evaluation questions
-
-Compare Braze with tools such as [Klaviyo](/tools/klaviyo/), [Acoustic](/tools/acoustic/), and [Salesforce Marketing Cloud Engagement](/tools/salesforce-marketing-cloud/) based on the channels required, event and profile model, journey controls, integrations, experimentation, reporting, deliverability operations, and administration effort. Validate current functionality and pricing with the vendor.
 
 ## Sources
 

@@ -11,11 +11,11 @@ Studio can help marketing, analytics, and data teams work with customer data and
 
 Studio requires a Treasure AI account and AI Credits provisioned for that account. Feature availability varies by platform, and channel or data capabilities depend on the entitlements of the connected account and its configuration.
 
-## Evaluation questions
+## Evaluation considerations
 
-Which users can query data or create and change CDP resources, and what approval or review is required before a journey or activation is launched? Determine how generated queries, files, and recommendations will be validated. Review the vendor's security, access-control, data-retention, and regional-processing documentation with the teams responsible for privacy and platform governance.
+Use representative prompts to generate a query, build an audience, and prepare a journey or report. Check the generated query and results against the underlying CDP data, identify which actions can change resources, and determine where review or approval is needed before activation.
 
-Will a conversational interface complement the existing console and workflows, which platforms do users need, and how will AI Credit usage be monitored? Treat claims about time savings and AI-generated results as vendor positioning; validate them with representative tasks and review criteria.
+Confirm account entitlements, supported web, desktop, or mobile workflows, and how AI Credit usage is monitored. Assess the access, retention, and regional-processing terms for the data and files involved, and compare the work with the existing console rather than assuming the chat interface saves time.
 
 ## Related profiles
 

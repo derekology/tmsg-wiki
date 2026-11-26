@@ -9,15 +9,13 @@ Mailjet provides email products and developer interfaces for sending and managin
 
 An organization may consider Mailjet for campaign email, application-triggered email, or a combination of both. These use cases have different operational needs: marketing campaigns require audience, consent, and suppression controls, while transactional messages need reliable application integration, event handling, and appropriate content boundaries. A shared provider does not remove the need to distinguish these streams.
 
-## Evaluation questions
+## Evaluation considerations
 
-How will marketing and transactional email be separated and operated? Evaluate:
+Assess Mailjet against both sending streams, rather than assuming a shared provider gives them the same operating model:
 
-- Sending architecture, authentication, domain setup, and integration ownership.
-- How templates, approvals, audience data, preferences, and suppression are managed.
-- API or SMTP requirements, delivery and bounce handling, event/webhook processing, and failure recovery.
-- Deliverability monitoring, access controls, data processing terms, support, and total cost.
-- How the service connects to the organization's [marketing system](/concepts/marketing-systems/) and existing [email deliverability](/lifecycle/email-deliverability/) practices.
+- For marketing campaigns, check the available template, approval, audience, unsubscribe, and suppression workflows in the proposed account.
+- For application-triggered messages, test the required API or SMTP integration, event or webhook handling, bounce response, and failure recovery.
+- Determine how domains, authentication, access, and deliverability monitoring will be managed across the two streams, and what work remains in the surrounding [marketing system](/concepts/marketing-systems/).
 
 Mailjet is not interchangeable with an email-authoring framework such as [MJML](/email/mjml/); the former is a sending and email platform, while MJML is used to author and compile responsive email markup.
 

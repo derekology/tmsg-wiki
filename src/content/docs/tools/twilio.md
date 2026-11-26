@@ -9,9 +9,11 @@ Twilio provides communications products and APIs that developers can use to add 
 
 Twilio can serve as a communications backend when a product or organization needs to trigger messages from its own application, connect delivery to business events, or build custom workflows. This is different from adopting a ready-made marketing automation platform: teams should plan for the application work, audience and preference management, message content, monitoring, and operational processes that their use case requires.
 
-## Evaluation questions
+## Evaluation considerations
 
-Which channels and countries are needed, and what sender or registration requirements apply? Assess integration effort, inbound-reply handling, event and failure monitoring, access controls, and total cost. For email, consider domain authentication, bounce and complaint handling, and how marketing and transactional streams will be governed. Verify current availability and requirements with Twilio.
+For Programmable Messaging, confirm the required channels, countries, sender types, and registration requirements. Test an application-triggered message through delivery status, failure handling, and any inbound reply; identify which audience, consent, and workflow functions the application or another system must provide.
+
+If email is also needed, evaluate the separate SendGrid API or SMTP integration, domain authentication, and bounce and complaint handling. Compare the engineering and operational work with a managed texting platform such as [EZ Texting](/tools/ez-texting/).
 
 Twilio SendGrid is distinct from [Twilio Segment](/tools/segment/), which is a customer-data platform. See [SMS messaging](/channels/sms-messaging/) and [email marketing](/email/email-marketing/) for channel-level guidance.
 

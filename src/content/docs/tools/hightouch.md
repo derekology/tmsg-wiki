@@ -13,13 +13,17 @@ MCP access can involve actions as well as reading information. Hightouch says op
 
 A data team can define customer or account models in a warehouse, then configure syncs to send selected fields or audiences to destinations. Marketers can use governed customer attributes and audiences for activation without treating the activation platform as the source of every underlying data point. The exact workflow and available destinations depend on a team's configuration and Hightouch's current product offering.
 
-This pattern can suit organizations with a mature warehouse and a need to coordinate activation across multiple tools. It also puts responsibility on the organization to maintain data models, identity rules, consent and suppression signals, destination mappings, and sync monitoring. Moving data out of a warehouse does not itself make the data accurate, permitted, or suitable for a campaign.
+This pattern can suit organizations with a mature warehouse and a need to coordinate activation across multiple tools.
 
-## Evaluation questions
+## Evaluation considerations
 
-Check support for the warehouse and destinations you actually use, sync frequency and failure handling, field-level controls, audience definitions, identity behavior, access controls, auditability, and total operating cost. Test how a changed consent status or deletion request propagates to destinations before relying on a workflow in production.
+Trace a warehouse model through a Hightouch sync to an actual destination. Check the supported match keys and field mappings, sync timing, failure visibility, and what happens when a person leaves an audience or their consent changes. Confirm how deletions are handled in each destination rather than assuming a sync removes every downstream copy.
 
-Compare Hightouch with [Twilio Segment](/tools/segment/) and [Treasure AI](/tools/treasure-ai/) by mapping the data each platform owns, transforms, and activates. The category labels overlap; the useful comparison is the data architecture and operating responsibilities each option creates.
+If considering headless access, test which audience or campaign actions the relevant workspace role can perform through the MCP server and how those actions are reviewed. Compare the warehouse modeling and activation responsibilities with [Twilio Segment](/tools/segment/) and [Treasure AI](/tools/treasure-ai/).
+
+## Implementation considerations
+
+The organization remains responsible for maintaining data models, identity rules, consent and suppression signals, destination mappings, and sync monitoring. Moving data out of a warehouse does not itself make the data accurate, permitted, or suitable for a campaign.
 
 ## Sources
 

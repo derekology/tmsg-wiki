@@ -9,11 +9,11 @@ HubSpot is a customer relationship management (CRM) platform with products for m
 
 In a marketing stack, HubSpot can serve as the place where contact and company records, campaign activity, and follow-up workflows meet. A team might capture a signup through a form, record the contact in its CRM, send relevant marketing messages, and pass a qualified conversation to sales. The CRM is the organizing layer; connected products provide the execution and reporting capabilities.
 
-## Evaluation questions
+## Evaluation considerations
 
-Which workflows need to be managed in HubSpot, and how do contacts enter and move through them? Evaluate consent and preference handling, duplicates and lifecycle changes, permissions, integrations, reporting definitions, product packaging, and operating effort. Test the important flows with realistic records; a feature list alone will not show how your data model and processes fit together.
+Trace a signup from a HubSpot form to a contact record, a marketing workflow, and a sales handoff. Check how duplicate contacts, consent changes, lifecycle transitions, and ownership affect that path and its reporting. Confirm which HubSpot products and subscription levels provide the required forms, automation, and integrations.
 
-Compare HubSpot with other CRM and marketing platforms such as [Salesforce](/tools/salesforce/), [Adobe Marketo Engage](/tools/marketo-engage/), and [Mailchimp](/tools/mailchimp/). They overlap in some areas but are not interchangeable products; compare the specific jobs and integrations you need rather than brand names alone.
+Compare how much of that workflow HubSpot can manage in one CRM environment with the division of responsibilities needed for [Salesforce](/tools/salesforce/), [Adobe Marketo Engage](/tools/marketo-engage/), or [Mailchimp](/tools/mailchimp/).
 
 ## Related concepts
 

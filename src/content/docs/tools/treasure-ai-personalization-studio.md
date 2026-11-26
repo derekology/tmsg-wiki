@@ -9,13 +9,15 @@ Treasure AI Personalization Studio is a web personalization product built on Tre
 
 Teams can use the product to personalize selected website content for audiences defined from customer data. The documented workflow uses a web SDK to send events and personalization requests, evaluate audience and campaign rules, and render the selected content on the site. Its data foundation combines profile attributes with real-time behavioral signals.
 
-This makes identity, event quality, audience rules, and website implementation important parts of the work. Test the experience for visitors who do not qualify or when personalization cannot load, and define how consent and other privacy preferences affect data collection and targeting.
+## Evaluation considerations
 
-## Evaluation questions
+Trace a visitor's SDK event and profile attributes through audience evaluation to a registered website content location. Check how quickly changed signals affect the experience, how consent affects collection and targeting, and what visitors see when they do not qualify or the request fails or is slow.
 
-How does the product fit the site's content and release processes, and what engineering work is needed to install and maintain the SDK? Check how pages and content locations are registered, how campaigns are previewed and measured, and how audience membership and real-time signals are updated. Test fallback content during errors or latency.
+Evaluate campaign preview and measurement alongside the engineering work to install the SDK and maintain page locations. [Treasure AI Engage Studio](/tools/treasure-ai-engage-studio/) also describes in-browser and in-product experiences; compare the actual workflows and entitlements rather than assuming a strict boundary.
 
-Treasure AI Engage Studio also describes in-browser messaging and personalized in-product experiences, so the products' documented capabilities overlap in some areas. Compare the actual campaign workflows, channels, configuration, and entitlements available to your organization rather than assuming a strict boundary between them.
+## Implementation considerations
+
+Identity, event quality, audience rules, and website implementation are important parts of the work. Test the experience for visitors who do not qualify or when personalization cannot load, and define how consent and other privacy preferences affect data collection and targeting.
 
 ## Related profiles
 

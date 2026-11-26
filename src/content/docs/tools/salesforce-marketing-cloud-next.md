@@ -11,9 +11,11 @@ Marketing Cloud Next should not be assumed to be a simple label change or automa
 
 Salesforce's positioning emphasizes connected data and AI-assisted campaign work. For an evaluation, translate those claims into concrete use cases: which data is available to a marketer, what the system can generate or execute, which actions require approval, and how teams review access, decisions, and outcomes.
 
-## Evaluation questions
+## Evaluation considerations
 
-Map required channels and journeys, CRM and data dependencies, existing automations, security and permission boundaries, consent and suppression behavior, reporting needs, and migration costs. Confirm product availability and licensing in the target region and org with Salesforce documentation and the account team; public announcements do not guarantee that every feature is available in every configuration.
+Confirm which Marketing Cloud Next features, channels, and licenses are available in the target Salesforce org and region. Demonstrate a journey using the organization's CRM data, including how consent, suppression, reporting, and permissions work in that configuration.
+
+For a move from [Marketing Cloud Engagement](/tools/salesforce-marketing-cloud/), inventory the existing data model, integrations, and automations; identify what can be migrated and what must be rebuilt. For any proposed AI-assisted action, establish what it can access or execute and where human approval applies.
 
 ## Sources
 

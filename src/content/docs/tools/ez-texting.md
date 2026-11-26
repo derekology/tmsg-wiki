@@ -9,13 +9,17 @@ EZ Texting is a text messaging platform for business campaigns and customer conv
 
 Teams can evaluate EZ Texting when they need a dedicated SMS program with campaign management, reply handling, and automation, or when they want to connect texting to an existing application through an API. EZ Texting also lists integrations with platforms such as HubSpot, Mailchimp, and Zapier; confirm that a required integration supports the team's intended workflow.
 
-Before selecting a platform, map how contacts enter the program, how consent and opt-outs are recorded, who owns sender registration, and how replies and delivery failures reach the right team. Confirm supported number types, countries, message volumes, integrations, and API behavior with the vendor. Platform tooling does not replace the organization's responsibility to follow applicable laws, carrier rules, and provider policies.
-
 See [SMS messaging](/channels/sms-messaging/) for channel considerations and [marketing automation](/concepts/marketing-automation/) for journey design.
 
-## Evaluation questions
+## Evaluation considerations
 
-Compare EZ Texting with options such as [Twilio](/tools/twilio/) based on the countries and message types needed, two-way conversation workflows, contact and consent management, integrations, API requirements, reporting, and operating effort. Confirm sender requirements, current capabilities, and commercial terms with the vendor.
+For the intended countries and message volumes, confirm which sender types and registration requirements apply. Test a campaign and a two-way conversation: how do contacts and opt-outs enter EZ Texting, and how do replies and delivery failures reach the team responsible for them?
+
+Check whether a required HubSpot, Mailchimp, Zapier, or API integration supports the specific data exchange and workflow. Compare the managed campaign and reply workflow with the application-building effort involved in [Twilio](/tools/twilio/).
+
+## Implementation considerations
+
+Map how contacts enter the program, how consent and opt-outs are recorded, who owns sender registration, and how replies and delivery failures reach the right team. Platform tooling does not replace the organization's responsibility to follow applicable laws, carrier rules, and provider policies.
 
 ## Sources
 

@@ -17,11 +17,17 @@ The platform is aimed at organizations that need to bring customer data together
 
 Treasure AI describes Activation as AI-powered engagement and personalization using unified customer data, including omnichannel campaigns and real-time web personalization. Its product overview lists email, SMS, mobile push, in-app messaging, and LINE among supported channels; channel availability depends on account setup and product access. See [Treasure AI Personalization Studio](/tools/treasure-ai-personalization-studio/) and [Treasure AI Engage Studio](/tools/treasure-ai-engage-studio/) for two product profiles from this broader activation portfolio.
 
-However, treat claims about automation or business outcomes as vendor positioning until tested against a defined use case. Establish human approval boundaries and ensure data access follows the same privacy and governance rules as other marketing systems.
+Treat claims about automation or business outcomes as vendor positioning until tested against a defined use case.
 
-## Evaluation questions
+## Evaluation considerations
 
-Which systems provide source data, and where should customer records, audiences, and activation be managed? Compare Treasure AI with [Hightouch](/tools/hightouch/) and [Twilio Segment](/tools/segment/) based on identity rules, integrations, warehouse and CRM responsibilities, retention needs, and implementation effort. Confirm which capabilities are available to your organization, what depends on edition or deployment, how migration works, and how any agent features are permissioned, reviewed, and logged.
+Trace source data through the CDP into a customer profile, audience, and the intended Engage or Personalization Studio workflow. Check identity rules, update timing, consent handling, and which activation channels and product entitlements are available in the proposed account. Compare the ownership of data and audiences with [Hightouch](/tools/hightouch/) and [Twilio Segment](/tools/segment/).
+
+For headless or agent-assisted use, distinguish the documentation-search MCP server from interfaces that can operate on platform resources. Confirm which actions are available, what data they can access, and how permissions, approvals, and logs apply. Evaluate migration and integration work against the existing warehouse and CRM.
+
+## Implementation considerations
+
+Establish human approval boundaries and ensure data access follows the same privacy and governance rules as other marketing systems.
 
 ## Sources
 

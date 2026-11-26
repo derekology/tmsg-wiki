@@ -11,17 +11,17 @@ An engineering and marketing operations team can instrument a website, app, or s
 
 Segment's Unify capabilities can resolve identities across supported sources and provide unified profiles. Protocols supports tracking plans that specify expected events and properties and can validate incoming data against those plans. Twilio also offers Engage for customer engagement using Segment data; product requirements and availability can vary by plan and configuration. Confirm the current packaging and capabilities with Twilio before making an architectural decision.
 
+## Evaluation considerations
+
+Trace an event from a website or app source through Connections to the intended destinations. Check how a tracking plan in Protocols validates it, how destination-specific forwarding is controlled, and what happens when consent changes or delivery fails. Confirm which capabilities are included in the proposed plan.
+
+If unified profiles are needed, assess how Unify associates anonymous and known activity and where profiles and audiences should be owned. Compare that collection-and-profile architecture with [Treasure AI](/tools/treasure-ai/), warehouse-based [Hightouch](/tools/hightouch/), or an integration workflow in [Zapier](/tools/zapier/); these products do not all serve the same role.
+
 ## Implementation considerations
 
 Start with business questions and define events and properties that are necessary to answer them. Decide which identifiers may be collected, how anonymous activity is associated with known profiles, and which systems are authoritative for customer attributes and consent. Apply a tracking plan and review event changes with the teams that instrument sources and use the data.
 
 Routing data through a CDP does not make it accurate, permitted, or appropriate for every destination. Set destination-specific controls, verify what data is forwarded, and test how consent changes and deletion requests propagate. Also account for the engineering work of source instrumentation, identity design, schema maintenance, monitoring, and troubleshooting.
-
-## Evaluation questions
-
-Does the use case require a customer data platform with persistent profiles and governed activation, or primarily an integration layer for moving data? The CDP Institute describes CDPs in terms of persistent customer records and making governed customer context available to other systems. Products differ in identity, storage, governance, and activation. Compare Segment with other CDP approaches and with integration tools such as [Zapier](/tools/zapier/) based on those needs and the team's implementation capacity.
-
-Compare Segment with other CDP approaches, including [Treasure AI](/tools/treasure-ai/) and [Hightouch](/tools/hightouch/), by identifying which system should own customer records, audiences, and activation. Review event collection, identity resolution, schema enforcement, privacy controls, destination support, observability, and the team's engineering capacity.
 
 ## Sources
 

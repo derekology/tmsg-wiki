@@ -9,11 +9,15 @@ This profile focuses on Bloomreach Marketing, which Bloomreach describes as a cu
 
 Marketing teams can use Bloomreach Marketing to segment customers and coordinate campaigns across channels that include email, mobile messaging, browser push, in-app messages, and website experiences. Its visual Scenarios tool supports automated customer flows, while its data and analytics capabilities connect campaign activity with customer and event information. Available channels and functions depend on configuration.
 
+## Evaluation considerations
+
+Trace a behavioral event and a transaction into a customer profile, then through an audience and a Scenarios journey. Check how quickly profile changes affect eligibility, what happens when someone opts out during a scenario, and whether the intended email, mobile, and website channels are available in the proposed configuration.
+
+Compare the profile and campaign workflow with [Klaviyo](/tools/klaviyo/) and [Braze](/tools/braze/), including the work needed to connect existing customer and order data.
+
+## Implementation considerations
+
 The platform's usefulness depends on reliable event collection, clear customer identity rules, and maintained consent and preference data. Decide which systems own customer attributes and permissions, and test how profile updates and opt-outs affect audiences and active campaigns. A unified profile does not by itself establish that the underlying data is complete or that a message is appropriate to send.
-
-## Evaluation questions
-
-Compare Bloomreach Marketing with platforms such as [Klaviyo](/tools/klaviyo/) and [Braze](/tools/braze/) based on required channels, customer identity and event models, segmentation, journey controls, integrations, analytics, and implementation effort. Confirm current product scope and commercial terms with Bloomreach.
 
 Related topics: [customer data platforms](/data/customer-data-platform/), [marketing automation](/concepts/marketing-automation/), and [web personalization](/channels/web-personalization/).
 

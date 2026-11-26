@@ -9,11 +9,15 @@ Acoustic offers marketing technology for email, audience segmentation, and cross
 
 An organization may evaluate Acoustic for marketing audience management and coordinated lifecycle communications. Map the data sources, identity rules, channels, consent and preference signals, and customer records the platform will use. Confirm which product capabilities are live in the intended configuration rather than assuming every feature mentioned across Acoustic's product pages is included.
 
+## Evaluation considerations
+
+Identify which Acoustic products are included in the proposed configuration and whether they support the intended email and cross-channel journeys. Use a representative audience to assess how customer data enters Acoustic, how segments are updated, and how an unsubscribe or suppression affects a journey already in progress.
+
+Compare the work needed to operate those journeys and report outcomes with alternatives such as [Braze](/tools/braze/), [Klaviyo](/tools/klaviyo/), and [Salesforce Marketing Cloud Engagement](/tools/salesforce-marketing-cloud/).
+
+## Implementation considerations
+
 Good implementation requires ownership of segmentation logic, data quality, suppression, and unsubscribe processing. For email programs, also assess authentication, deliverability monitoring, and how campaign outcomes are reported alongside other tools.
-
-## Evaluation questions
-
-Compare Acoustic with [Braze](/tools/braze/), [Klaviyo](/tools/klaviyo/), and [Salesforce Marketing Cloud Engagement](/tools/salesforce-marketing-cloud/) against your actual channel mix, data architecture, journey needs, integration requirements, governance, support model, and total cost. Request a use-case demonstration using representative data and a clear explanation of the product components included.
 
 ## Sources
 

@@ -9,15 +9,6 @@ MailerLite is an email marketing platform used to create and send campaigns and 
 
 Teams may evaluate MailerLite when they need campaign authoring, audience organization, signup experiences, or email automation in a managed service. As with any sending platform, success depends on how the organization defines consent, list growth, suppression, segmentation, message governance, and measurement—not only on the editor or automation builder.
 
-Before implementation, confirm:
-
-- How subscriber consent, preferences, imports, and suppression are represented and maintained.
-- Which integrations or API workflows are needed and what data they exchange.
-- How roles, approval, deliverability practices, and reporting fit the operating model.
-- Whether migration, data export, volume, support, and commercial requirements are acceptable.
-
-Do not assume that an email marketing platform is the system of record for customer data. Document the source of truth and sync behavior for subscriber attributes and preferences. Compare it with alternatives such as [Mailchimp](/tools/mailchimp/), [Klaviyo](/tools/klaviyo/), and [Mailjet](/tools/mailjet/) against actual workflows.
-
 MailerLite has two distinct products: **MailerLite Classic** (also called Legacy) and the current **MailerLite** platform. They are separate platforms, not just different names for the same interface. If you already have an account, use MailerLite's guide to [identify which version you use](https://www.mailerlite.com/help/which-version-of-mailerlite-am-i-using).
 
 ## MailerLite Classic
@@ -30,9 +21,15 @@ MailerLite describes the new platform as including landing pages and websites in
 
 Creating a new MailerLite account does not replace or automatically change a Classic account. Migration is an explicit process for selected asset categories, such as subscribers, forms, templates, and automations. Sent-campaign statistics do not migrate, and subscriber changes made in the new platform do not automatically sync back to Classic. Review the vendor's [migration guide](https://www.mailerlite.com/help/migration) before planning a transition.
 
-## Evaluation questions
+## Evaluation considerations
 
-Which version of MailerLite is in use, and does it provide the required campaigns, automation, reporting, and integrations? For a move between Classic and the current platform, which data and assets will migrate, what will not transfer, and how will ongoing changes be handled? Also compare consent and suppression workflows, support, volume, and commercial requirements.
+Identify whether the account uses Classic or the current platform, and check the required automation, landing pages, reporting, and integrations against that version and plan. For a migration, inventory subscribers, forms, templates, automations, and historical reporting: sent-campaign statistics do not migrate, and changes in the new platform do not automatically sync back to Classic.
+
+Test a subscriber import and unsubscribe through the intended integration, including how consent and suppression are maintained. Compare the resulting campaign and signup workflow with [Mailchimp](/tools/mailchimp/), [Klaviyo](/tools/klaviyo/), and [Mailjet](/tools/mailjet/).
+
+## Implementation considerations
+
+Define the source of truth and sync behavior for subscriber attributes and preferences, and assign ownership of imports, suppression, approvals, and deliverability. Plan data export, migration, volume, and support around the chosen version and account.
 
 ## Sources
 
