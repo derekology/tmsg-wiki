@@ -59,12 +59,18 @@ Measurement connects activity to results and helps identify where performance br
 
 Measurement is useful when it changes decisions. Collecting more events or building larger dashboards does not necessarily improve the system if the results cannot explain performance or inform an action.
 
+## Batch and real-time behavior
+
+A marketing system is rarely entirely “static” or entirely real-time. Most combine scheduled batch updates with event-driven processes that respond to interactions sooner. A nightly audience refresh may be sufficient for one campaign, while a signup confirmation or preference change may require a faster path.
+
+Real-time is a latency requirement across a particular workflow, not a guarantee that every connected system is instantly synchronized. Collection, identity matching, decision rules, integrations, and channel delivery can each add delay. Design for the freshness a customer interaction needs, and make delays and failure behavior visible. See [marketing data flows](/concepts/marketing-data-flows/) for a practical comparison of batch and event-driven patterns, and [identity resolution](/data/identity-resolution/) for how identity matching affects those flows.
+
 ## The connected parts
 
 The five layers describe the functional flow of a marketing system. Other components determine whether that flow is dependable, maintainable, and appropriate.
 
-1. **Processes and customer journeys:** The workflows, triggers, decisions, and handoffs that support planning, campaign execution, customer communications, and feedback.
-2. **Data and definitions:** Customer and account records, events, consent and preference signals, identifiers, taxonomies, lifecycle stages, and the rules used to interpret them.
+1. **Processes and customer journeys:** The workflows, triggers, decisions, and handoffs that support planning, campaign execution, customer communications, and feedback. See [marketing workflow design](/concepts/marketing-workflow-design/).
+2. **Data and definitions:** Customer and account records, events, consent and preference signals, identifiers, taxonomies, lifecycle stages, and the rules used to interpret them. See [marketing data flows](/concepts/marketing-data-flows/), [identity resolution](/data/identity-resolution/), and [marketing data governance](/concepts/marketing-data-governance/).
 3. **Technology and integrations:** The applications and infrastructure that collect, store, transform, activate, deliver, and measure information, plus the interfaces and contracts that connect them.
 4. **Governance and controls:** The quality checks, access rules, consent handling, documentation, monitoring, retention, and recovery procedures that keep data use appropriate and operations dependable.
 5. **Measurement and feedback:** The events, metrics, and reporting that show whether processes work and guide changes to journeys, definitions, and system behavior.
@@ -120,7 +126,7 @@ The feedback loop then uses observed results to refine the system. Changes to ac
 
 ## How related disciplines fit
 
-[Marketing operations](/concepts/marketing-operations/) owns or coordinates many of the repeatable processes, platform practices, and measurement conventions that keep the system running. [Marketing technology](/concepts/marketing-technology/) describes the software category and stack within the wider system. A [go-to-market strategy](/concepts/go-to-market/) defines the audience, value, and coordinated route to market that the system must support. [Marketing automation](/concepts/marketing-automation/) executes selected processes; it does not replace their design or governance.
+[Marketing operations](/concepts/marketing-operations/) owns or coordinates many of the repeatable processes, platform practices, and measurement conventions that keep the system running. [Marketing technology](/concepts/marketing-technology/) describes the software category and stack within the wider system. A [go-to-market strategy](/concepts/go-to-market/) defines the audience, value, and coordinated route to market that the system must support. [Marketing automation](/concepts/marketing-automation/) executes selected processes; it does not replace their design or governance. For deeper views of its parts, see [marketing data flows](/concepts/marketing-data-flows/), [marketing workflow design](/concepts/marketing-workflow-design/), and [marketing data governance](/concepts/marketing-data-governance/).
 
 For an example data layer, see [customer data platforms](/data/customer-data-platform/). For campaign measurement, see [marketing attribution](/measurement/marketing-attribution/) and [attribution strategies](/measurement/attribution-strategies/). Platform profiles such as [Salesforce](/tools/salesforce/), [Adobe Marketo Engage](/tools/marketo-engage/), and [Salesforce Marketing Cloud Engagement](/tools/salesforce-marketing-cloud/) are components to assess against actual requirements, not blueprints for every organization.
 

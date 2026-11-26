@@ -24,6 +24,8 @@ This glossary explains terms used across marketing work and its supporting syste
 ## D–M
 
 - **Data activation:** Making data or audience definitions available to systems that use them, such as advertising, CRM, or messaging platforms. See [Hightouch](/tools/hightouch/) for a vendor example.
+- **Data governance:** The responsibilities, decisions, and controls that guide how data is defined, accessed, used, and maintained. See [marketing data governance](/concepts/marketing-data-governance/).
+- **Data lineage:** A record of where data originated, how it changed, and where it is used or sent.
 - **Data warehouse:** A system that stores structured organizational data for reporting and analysis; it can also supply modeled data to operational systems.
 - **Demand generation and demand capture:** Demand generation builds awareness, understanding, or preference; demand capture helps people already researching a solution find and evaluate an offer. See [demand generation and demand capture](/concepts/demand-generation/).
 - **DKIM (DomainKeys Identified Mail):** An email authentication method that lets a sender sign selected message content with a private key so a receiver can verify it using a public key. See [DKIM](/lifecycle/dkim/).
@@ -35,7 +37,7 @@ This glossary explains terms used across marketing work and its supporting syste
 - **Go-to-market (GTM) strategy:** A coordinated plan for taking an offering to a defined market, including its audience, value, routes to market, and execution. See [go-to-market strategy](/concepts/go-to-market/).
 - **Headless platform:** A platform whose capabilities can be accessed through interfaces beyond its own graphical application. The original interface may remain available. See [headless marketing platforms](/concepts/headless-marketing-platform/).
 - **Ideal customer profile (ICP):** A description of the type of customer for whom an offer is a strong fit and likely to deliver value; in B2B, it usually describes an organization or account. See [ideal customer profile](/concepts/ideal-customer-profile/).
-- **Identity resolution:** Rules and processes for deciding which records or identifiers refer to the same person or account. Incorrect matching can merge distinct people or fragment one person's records.
+- **Identity resolution (identity stitching):** Rules and processes for deciding which records or identifiers refer to the same person, account, or other entity. Incorrect matching can merge distinct entities or fragment one entity's records. See [identity resolution and stitching](/data/identity-resolution/).
 - **In-app messaging:** Content displayed within an app or website while someone is using it, often in response to an audience rule or event. See [in-app messaging](/channels/in-app-messaging/).
 - **Intent data:** Behavioral signals used to infer possible interest in a topic, product, or purchase; an observed signal is not a confirmed buying decision. See [first-party and intent data](/data/first-party-and-intent-data/).
 - **Integration:** A connection that allows systems to exchange data or invoke actions. Integrations differ in direction, timing, supported fields, failure behavior, and access controls.
@@ -46,6 +48,7 @@ This glossary explains terms used across marketing work and its supporting syste
 - **MCP (Model Context Protocol):** An open protocol for connecting AI applications to external systems, including tools and data sources. MCP describes a connection mechanism; each server determines what it exposes. See [headless marketing platforms](/concepts/headless-marketing-platform/).
 - **MQL (marketing qualified lead):** A lifecycle label for a lead that meets an organization's agreed criteria for marketing-qualified follow-up; definitions vary. See [lead scoring and qualification](/concepts/lead-scoring-and-qualification/).
 - **Marketing automation:** Software that runs configured marketing workflows, such as triggered communications or audience-based journeys. See [marketing automation](/concepts/marketing-automation/).
+- **Marketing data flow:** The path information takes from collection through processing and use, reporting, or removal. See [marketing data flows](/concepts/marketing-data-flows/).
 - **Marketing operations (MOps):** The people, processes, data practices, and technology operations that enable marketing teams to plan, execute, measure, and improve work. See [marketing operations](/concepts/marketing-operations/).
 - **Martech (marketing technology):** Software and infrastructure used to plan, deliver, coordinate, and measure marketing. See [marketing technology](/concepts/marketing-technology/).
 - **Model (data model):** A defined representation of data entities, fields, and relationships used for analysis or system behavior. In AI contexts, “model” can instead mean the machine-learning system that processes inputs and produces outputs.
