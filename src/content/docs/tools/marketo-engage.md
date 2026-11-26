@@ -15,10 +15,6 @@ Trace a lead from a CRM record and website activity into a Marketo Smart Campaig
 
 Assess the work required for CRM synchronization, website tracking, branded links, and email authentication against the intended use case. Compare that operating model with [HubSpot](/tools/hubspot/), [Salesforce](/tools/salesforce/), or email-focused tools such as [Klaviyo](/tools/klaviyo/) and [Mailchimp](/tools/mailchimp/).
 
-## Implementation considerations
-
-Adobe's setup material calls out CRM sync, tracking code, and email deliverability configuration. Assign owners for those dependencies, test how records and activities synchronize, and monitor failures after launch. Access to a platform does not itself guarantee good data, compliant consent, or successful email placement.
-
 ## Related concepts
 
 Explore [marketing automation](/concepts/marketing-automation/), [lead scoring and qualification](/concepts/lead-scoring-and-qualification/), [email deliverability](/lifecycle/email-deliverability/), and [account-based marketing](/concepts/account-based-marketing/).

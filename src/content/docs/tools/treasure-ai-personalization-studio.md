@@ -15,10 +15,6 @@ Trace a visitor's SDK event and profile attributes through audience evaluation t
 
 Evaluate campaign preview and measurement alongside the engineering work to install the SDK and maintain page locations. [Treasure AI Engage Studio](/tools/treasure-ai-engage-studio/) also describes in-browser and in-product experiences; compare the actual workflows and entitlements rather than assuming a strict boundary.
 
-## Implementation considerations
-
-Identity, event quality, audience rules, and website implementation are important parts of the work. Test the experience for visitors who do not qualify or when personalization cannot load, and define how consent and other privacy preferences affect data collection and targeting.
-
 ## Related profiles
 
 See the [Treasure AI overview](/tools/treasure-ai/) for its broader CDP and agentic experience platform, and [Treasure AI Engage Studio](/tools/treasure-ai-engage-studio/) for cross-channel engagement.

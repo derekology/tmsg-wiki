@@ -21,10 +21,6 @@ For a representative measurement event, map the data layer values to GTM variabl
 
 Assess whether container permissions, preview and debugging, and publishing review fit the team's release process. Distinguish GTM's tag deployment role from the analytics and consent-management systems it connects to.
 
-## Implementation considerations
-
-Set clear publishing permissions, review changes, use preview and debugging tools, and define consent behavior before tags are allowed to run. Keep sensitive or unnecessary personal data out of the data layer and destination payloads. Share a documented event plan between marketers, analysts, and developers so tag names and business definitions do not drift.
-
 ## Sources
 
 - [Google Tag Manager: Introduction to Tag Manager](https://support.google.com/tagmanager/answer/6102821?hl=en)

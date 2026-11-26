@@ -15,10 +15,6 @@ Use a representative signup and imported contact to examine how Mailchimp audien
 
 Confirm that the intended newsletter and welcome automation, integration, and contact volume fit the current plan and pricing. Compare those workflows with [HubSpot](/tools/hubspot/), [Klaviyo](/tools/klaviyo/), or [Adobe Marketo Engage](/tools/marketo-engage/) when more extensive CRM or journey controls are needed.
 
-## Implementation considerations
-
-Keep the contact model and consent history understandable. Review how imports, unsubscribes, bounces, and duplicates affect active audiences. If Mailchimp is connected to a shop, CRM, or analytics tool, verify which system owns customer details and how updates are reconciled.
-
 ## Sources
 
 - [Mailchimp Help Center](https://mailchimp.com/help/)

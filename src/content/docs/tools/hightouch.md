@@ -21,10 +21,6 @@ Trace a warehouse model through a Hightouch sync to an actual destination. Check
 
 If considering headless access, test which audience or campaign actions the relevant workspace role can perform through the MCP server and how those actions are reviewed. Compare the warehouse modeling and activation responsibilities with [Twilio Segment](/tools/segment/) and [Treasure AI](/tools/treasure-ai/).
 
-## Implementation considerations
-
-The organization remains responsible for maintaining data models, identity rules, consent and suppression signals, destination mappings, and sync monitoring. Moving data out of a warehouse does not itself make the data accurate, permitted, or suitable for a campaign.
-
 ## Sources
 
 - [Hightouch: Data activation concepts](https://hightouch.com/docs/concepts)

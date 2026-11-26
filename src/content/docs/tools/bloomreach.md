@@ -15,10 +15,6 @@ Trace a behavioral event and a transaction into a customer profile, then through
 
 Compare the profile and campaign workflow with [Klaviyo](/tools/klaviyo/) and [Braze](/tools/braze/), including the work needed to connect existing customer and order data.
 
-## Implementation considerations
-
-The platform's usefulness depends on reliable event collection, clear customer identity rules, and maintained consent and preference data. Decide which systems own customer attributes and permissions, and test how profile updates and opt-outs affect audiences and active campaigns. A unified profile does not by itself establish that the underlying data is complete or that a message is appropriate to send.
-
 Related topics: [customer data platforms](/data/customer-data-platform/), [marketing automation](/concepts/marketing-automation/), and [web personalization](/channels/web-personalization/).
 
 ## Sources

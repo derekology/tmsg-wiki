@@ -19,10 +19,6 @@ Trace a CRM record into Marketing Cloud Engagement's subscriber and contact data
 
 Assess the administration and deliverability work required for the proposed channels and volume. For existing Salesforce customers, compare those workflows and the migration implications with [Marketing Cloud Next](/tools/salesforce-marketing-cloud-next/), rather than treating the products as interchangeable.
 
-## Implementation considerations
-
-Organizations integrating Engagement with Salesforce CRM should document how subscriber and contact data relate to CRM records, how updates synchronize, and which system owns preferences and suppression. Confirm the actual integration and data model in the target account rather than assuming that products sharing the Salesforce name use identical data structures.
-
 ## Sources
 
 - [Salesforce Help: Marketing Cloud Engagement overview](https://help.salesforce.com/s/articleView?id=mktg.mc_overview_marketing_cloud.htm&language=en_US&type=5)

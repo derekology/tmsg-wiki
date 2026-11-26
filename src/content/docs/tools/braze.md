@@ -15,10 +15,6 @@ Use a representative event to evaluate how Braze associates activity with a prof
 
 Compare the work of maintaining event and profile data and operating these journeys with [Klaviyo](/tools/klaviyo/), [Acoustic](/tools/acoustic/), and [Salesforce Marketing Cloud Engagement](/tools/salesforce-marketing-cloud/).
 
-## Implementation considerations
-
-Teams should define the source of truth for profile and preference data, specify how anonymous and known activity is handled, and test cross-channel suppression and journey exit behavior. A messaging platform does not resolve unclear consent or poorly governed data by itself.
-
 ## Sources
 
 - [Braze User Guide](https://www.braze.com/docs/user_guide/home)

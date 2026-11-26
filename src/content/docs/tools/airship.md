@@ -15,10 +15,6 @@ Assess whether Journeys and Scenes can support the intended combination of push,
 
 Compare the SDK and API work, experience authoring, and channel availability with alternatives such as [Braze](/tools/braze/) and [Bloomreach](/tools/bloomreach/); confirm the required Airship products and configuration.
 
-## Implementation considerations
-
-Implementation depends on the quality of audience data, the identifiers used to recognize people across devices and systems, and the integration work needed for the relevant apps and channels. Map how permissions and preferences reach each campaign, test behavior across devices and channels, and define ownership for SDK and API maintenance. A platform's preference or opt-in features do not determine whether an organization's data collection or messaging meets its obligations.
-
 Related topics: [in-app messaging](/channels/in-app-messaging/), [SMS messaging](/channels/sms-messaging/), and [marketing automation](/concepts/marketing-automation/).
 
 ## Sources

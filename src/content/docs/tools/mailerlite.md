@@ -27,10 +27,6 @@ Identify whether the account uses Classic or the current platform, and check the
 
 Test a subscriber import and unsubscribe through the intended integration, including how consent and suppression are maintained. Compare the resulting campaign and signup workflow with [Mailchimp](/tools/mailchimp/), [Klaviyo](/tools/klaviyo/), and [Mailjet](/tools/mailjet/).
 
-## Implementation considerations
-
-Define the source of truth and sync behavior for subscriber attributes and preferences, and assign ownership of imports, suppression, approvals, and deliverability. Plan data export, migration, volume, and support around the chosen version and account.
-
 ## Sources
 
 - [MailerLite features](https://www.mailerlite.com/features)

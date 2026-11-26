@@ -15,10 +15,6 @@ Model an onboarding or activation funnel using Mixpanel events, user identifiers
 
 Compare the same question in [Google Analytics 4](/tools/google-analytics-4/) where appropriate, accounting for differences in event definitions and identity rather than expecting counts to match. Assess the event access, retention, privacy controls, and engineering effort needed for the analysis.
 
-## Implementation considerations
-
-Write down the behaviors that represent meaningful progress before tracking everything. Agree on event names and properties across engineering, product, and marketing. Test identity handling across devices or sessions, filter internal traffic where appropriate, and avoid sending personal information that is not needed for the analysis.
-
 ## Sources
 
 - [Mixpanel documentation: What is Mixpanel?](https://docs.mixpanel.com/docs/what-is-mixpanel.md)

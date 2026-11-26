@@ -15,10 +15,6 @@ Build and review a representative email using Stensul's reusable components, the
 
 Compare the effort of creating and maintaining shared templates and components with the existing production process. Confirm that the integration supports the specific destination and handoff workflow; Stensul's authoring and approval role is separate from audience selection and sending.
 
-## Implementation considerations
-
-The main operational dependencies are reusable templates, clear ownership of content and approvals, and a tested handoff to the sending platform. Teams should confirm that the integration supports their chosen workflow and verify that dynamic content, links, and rendering behave as expected after handoff. Workflow controls can support brand and review processes, but they do not replace an organization's own governance.
-
 Related topics: [email marketing](/email/email-marketing/), [email rendering](/email/email-rendering/), and [marketing operations](/concepts/marketing-operations/).
 
 ## Sources

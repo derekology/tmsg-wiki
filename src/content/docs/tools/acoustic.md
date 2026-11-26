@@ -15,10 +15,6 @@ Identify which Acoustic products are included in the proposed configuration and 
 
 Compare the work needed to operate those journeys and report outcomes with alternatives such as [Braze](/tools/braze/), [Klaviyo](/tools/klaviyo/), and [Salesforce Marketing Cloud Engagement](/tools/salesforce-marketing-cloud/).
 
-## Implementation considerations
-
-Good implementation requires ownership of segmentation logic, data quality, suppression, and unsubscribe processing. For email programs, also assess authentication, deliverability monitoring, and how campaign outcomes are reported alongside other tools.
-
 ## Sources
 
 - [Acoustic Connect](https://www.acoustic.com/product/acoustic-connect)

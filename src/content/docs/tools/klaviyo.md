@@ -15,10 +15,6 @@ Trace a signup or purchase from the commerce platform into a Klaviyo profile and
 
 Confirm the required integration, channel, and plan capabilities, and compare the commerce-focused workflow with [HubSpot](/tools/hubspot/), [Adobe Marketo Engage](/tools/marketo-engage/), or [Mailchimp](/tools/mailchimp/) for the journeys in scope.
 
-## Implementation considerations
-
-Start with a small number of valuable journeys and explicit entry and exit conditions. Test how profile updates, unsubscribes, and repeated events behave before activating a flow. Keep the source of truth for customer and order data clear, especially when integrating with a commerce platform or CRM.
-
 Related topics: [marketing automation](/concepts/marketing-automation/), [first-party and intent data](/data/first-party-and-intent-data/), and [email deliverability](/lifecycle/email-deliverability/).
 
 ## Sources

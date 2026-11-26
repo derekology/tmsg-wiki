@@ -15,10 +15,6 @@ Trace a lead from capture through qualification and opportunity reporting, ident
 
 Compare the required CRM configuration and administration with [HubSpot](/tools/hubspot/) or a Salesforce integration with [Adobe Marketo Engage](/tools/marketo-engage/). If a Salesforce marketing product is proposed, distinguish [Marketing Cloud Engagement](/tools/salesforce-marketing-cloud/) from [Marketing Cloud Next](/tools/salesforce-marketing-cloud-next/) and assess the specific product and edition.
 
-## Implementation considerations
-
-Map ownership before implementation: decide which system creates each record, which fields are authoritative, how changes synchronize, and how teams handle duplicates and lifecycle transitions. Document permissions and reporting definitions as carefully as the integration diagram.
-
 ## Related concepts
 
 See [revenue operations](/concepts/revenue-operations/), [ideal customer profiles](/concepts/ideal-customer-profile/), [lead scoring and qualification](/concepts/lead-scoring-and-qualification/), and [customer data platforms](/data/customer-data-platform/).

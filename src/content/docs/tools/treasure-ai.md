@@ -25,10 +25,6 @@ Trace source data through the CDP into a customer profile, audience, and the int
 
 For headless or agent-assisted use, distinguish the documentation-search MCP server from interfaces that can operate on platform resources. Confirm which actions are available, what data they can access, and how permissions, approvals, and logs apply. Evaluate migration and integration work against the existing warehouse and CRM.
 
-## Implementation considerations
-
-Establish human approval boundaries and ensure data access follows the same privacy and governance rules as other marketing systems.
-
 ## Sources
 
 - [Treasure AI: Why We're Becoming Treasure AI](https://www.treasure.ai/blog/treasure-ai-announcement)

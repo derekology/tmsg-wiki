@@ -17,10 +17,6 @@ For the intended countries and message volumes, confirm which sender types and r
 
 Check whether a required HubSpot, Mailchimp, Zapier, or API integration supports the specific data exchange and workflow. Compare the managed campaign and reply workflow with the application-building effort involved in [Twilio](/tools/twilio/).
 
-## Implementation considerations
-
-Map how contacts enter the program, how consent and opt-outs are recorded, who owns sender registration, and how replies and delivery failures reach the right team. Platform tooling does not replace the organization's responsibility to follow applicable laws, carrier rules, and provider policies.
-
 ## Sources
 
 - [EZ Texting: Features](https://www.eztexting.com/features) — Describes campaign texting, two-way messaging, workflows, contact management, and supported message formats.

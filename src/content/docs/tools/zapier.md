@@ -15,10 +15,6 @@ Build a representative Zap from the actual trigger to the destination action, su
 
 Compare the ownership and troubleshooting effort with a code-based integration or options such as Make and n8n. [Segment](/tools/segment/) has a different focus on customer event collection and routing, so compare the specific data flow rather than treating it as a direct substitute.
 
-## Implementation considerations
-
-Before launch, check field mapping, duplicate handling, retries, permissions, and how failures are surfaced. Decide which system owns each record and whether a workflow should create or update it. Avoid moving sensitive data to services or accounts that are not approved for it. For business-critical processes, record the workflow's trigger, actions, expected outcomes, and escalation path.
-
 ## Sources
 
 - [Zapier Help Center](https://help.zapier.com/hc/en-us/)
