@@ -11,7 +11,7 @@ Attribution strategies are different ways of assigning recorded credit to market
 - **Last-touch:** Assigns credit to the last eligible recorded interaction. It is easy to interpret for conversion-path reporting, but may understate earlier demand creation and other influences.
 - **Single-touch variants:** Apply all credit to another selected event, such as lead creation or opportunity creation. The event definition must be stable and meaningful.
 - **Linear:** Divides credit evenly across eligible interactions. Equal shares are a chosen convention, not proof that each interaction had equal influence.
-- **Position-based:** Gives selected positions—often the first and last—larger shares and distributes the rest. The weighting is a policy choice that should be disclosed.
+- **Position-based:** Gives selected positions, often the first and last, larger shares and distributes the rest. The weighting is a policy choice that should be disclosed.
 - **Time-decay:** Gives interactions nearer to a defined outcome more credit. The lookback period and decay rule affect the result.
 - **Algorithmic or data-driven:** Uses a model to assign credit based on observed data and a provider's assumptions. Model inputs, eligible channels, identity resolution, and validation matter; “data-driven” does not itself mean causal.
 - **Marketing mix modeling (MMM):** Uses aggregated time-series and other inputs to estimate channel contributions and support budget planning. Its results depend on input quality, model assumptions, and how external factors are handled.

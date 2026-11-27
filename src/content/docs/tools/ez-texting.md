@@ -19,6 +19,6 @@ Check whether a required HubSpot, Mailchimp, Zapier, or API integration supports
 
 ## Sources
 
-- [EZ Texting: Features](https://www.eztexting.com/features) — Describes campaign texting, two-way messaging, workflows, contact management, and supported message formats.
-- [EZ Texting: SMS API](https://www.eztexting.com/features/sms-api) — Documents programmatic sending, contact management, two-way messages, and webhooks.
-- [EZ Texting: Integrations](https://www.eztexting.com/integrations) — Lists vendor-supported integrations; availability and integration behavior can change.
+- [EZ Texting: Features](https://www.eztexting.com/features): Describes campaign texting, two-way messaging, workflows, contact management, and supported message formats.
+- [EZ Texting: SMS API](https://www.eztexting.com/features/sms-api): Documents programmatic sending, contact management, two-way messages, and webhooks.
+- [EZ Texting: Integrations](https://www.eztexting.com/integrations): Lists vendor-supported integrations; availability and integration behavior can change.

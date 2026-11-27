@@ -7,7 +7,7 @@ Mailchimp is a marketing platform whose help center covers email campaigns, audi
 
 ## Typical workflows
 
-A team may collect signups, organize contacts into audiences or segments, send a newsletter or campaign, and review engagement reports. Automation can handle repeatable messages such as a welcome sequence. Good results depend on valid permission, accurate contact data, appropriate frequency, and clear suppression rules—not only on the sending platform.
+A team may collect signups, organize contacts into audiences or segments, send a newsletter or campaign, and review engagement reports. Automation can handle repeatable messages such as a welcome sequence. Good results depend on valid permission, accurate contact data, appropriate frequency, and clear suppression rules, not only on the sending platform.
 
 ## Evaluation considerations
 

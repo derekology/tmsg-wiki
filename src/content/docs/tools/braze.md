@@ -7,7 +7,7 @@ Braze is a customer engagement platform for coordinating personalized communicat
 
 ## Where it fits
 
-A marketing or lifecycle team can use Braze to respond to customer events with coordinated messages across channels such as email, push, in-app messaging, and SMS where enabled. This makes event quality, profile identity, message eligibility, consent, and frequency controls important parts of implementation—not just copy and campaign design.
+A marketing or lifecycle team can use Braze to respond to customer events with coordinated messages across channels such as email, push, in-app messaging, and SMS where enabled. This makes event quality, profile identity, message eligibility, consent, and frequency controls important parts of implementation, not just copy and campaign design.
 
 ## Evaluation considerations
 

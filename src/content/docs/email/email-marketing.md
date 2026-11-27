@@ -3,7 +3,7 @@ title: Email Marketing
 description: An overview of lifecycle, triggered, and batch email campaigns, plus HTML and plain-text formats.
 ---
 
-Email marketing uses email to inform, support, and communicate with people who have an appropriate basis to receive those messages. A program may include one-time announcements as well as messages coordinated over a customer relationship. Its effectiveness depends on a clear audience and purpose, relevant timing, accurate data, and responsible sending—not just the email platform.
+Email marketing uses email to inform, support, and communicate with people who have an appropriate basis to receive those messages. A program may include one-time announcements as well as messages coordinated over a customer relationship. Its effectiveness depends on a clear audience and purpose, relevant timing, accurate data, and responsible sending, not just the email platform.
 
 ## Three ways to think about campaigns
 
@@ -47,6 +47,6 @@ Related pages: [marketing automation](/concepts/marketing-automation/), [email d
 
 ## Sources
 
-- [Mailchimp: Getting Started with Campaigns](https://mailchimp.com/help/getting-started-with-campaigns/) — Mailchimp-specific examples of scheduled and automated email campaign types; campaign names and capabilities vary by platform.
-- [Salesforce: What Is Marketing Automation?](https://www.salesforce.com/marketing/automation/guide/) — Background on workflows and actions triggered by schedules and customer behavior.
-- [RFC 2046, section 5.1.4: Multipart/Alternative](https://www.rfc-editor.org/rfc/rfc2046#section-5.1.4) — MIME's standard for alternative representations of message content.
+- [Mailchimp: Getting Started with Campaigns](https://mailchimp.com/help/getting-started-with-campaigns/): Mailchimp-specific examples of scheduled and automated email campaign types; campaign names and capabilities vary by platform.
+- [Salesforce: What Is Marketing Automation?](https://www.salesforce.com/marketing/automation/guide/): Background on workflows and actions triggered by schedules and customer behavior.
+- [RFC 2046, section 5.1.4: Multipart/Alternative](https://www.rfc-editor.org/rfc/rfc2046#section-5.1.4): MIME's standard for alternative representations of message content.

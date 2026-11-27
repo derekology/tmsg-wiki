@@ -17,7 +17,7 @@ Account-based marketing (ABM) is a B2B approach that plans marketing around sele
 
 Lead programs often begin with an individual action, such as completing a form, and then qualify that person. ABM starts with an account or buying group and asks which people and interactions matter within it. The approaches can work together: account strategy can guide which leads to prioritize, while individual engagement can provide signals about an account.
 
-## When it is useful—and when it is not
+## When it is useful and and when it is not
 
 ABM may be appropriate when a business sells to a defined set of organizations, several stakeholders influence a purchase, and teams can coordinate tailored engagement. It is not automatically superior to broad demand programs. If account selection is weak, data is unreliable, or sales and marketing cannot agree on ownership, the program may simply relabel existing campaigns.
 

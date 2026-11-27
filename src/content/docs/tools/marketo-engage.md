@@ -3,7 +3,7 @@ title: Adobe Marketo Engage
 description: An overview of Marketo Engage as a marketing automation and engagement platform.
 ---
 
-Adobe Marketo Engage is a marketing automation platform for managing programs and customer engagement. Adobe's documentation covers campaign setup, Smart Campaigns, integrations, developer resources, and operational configuration. Its setup guidance also shows that a production implementation can involve CRM synchronization, website tracking, branded links, and email-authentication work—not just building a campaign.
+Adobe Marketo Engage is a marketing automation platform for managing programs and customer engagement. Adobe's documentation covers campaign setup, Smart Campaigns, integrations, developer resources, and operational configuration. Its setup guidance also shows that a production implementation can involve CRM synchronization, website tracking, branded links, and email-authentication work, not just building a campaign.
 
 ## Typical role in a stack
 

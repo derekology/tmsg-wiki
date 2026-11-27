@@ -7,7 +7,7 @@ Revenue operations (RevOps) is an operating approach for coordinating the people
 
 ## What RevOps works on
 
-RevOps often addresses shared lifecycle definitions, planning and forecasting, lead and account handoffs, process design, CRM and marketing-system governance, reporting, and operational measurement. Its purpose is to reduce conflicting processes and information gaps across teams—not to centralize every decision or replace functional expertise.
+RevOps often addresses shared lifecycle definitions, planning and forecasting, lead and account handoffs, process design, CRM and marketing-system governance, reporting, and operational measurement. Its purpose is to reduce conflicting processes and information gaps across teams, not to centralize every decision or replace functional expertise.
 
 For example, marketing and sales can agree what qualifies as a sales-ready lead, who owns follow-up, how quickly a response is expected, and how rejected leads return to nurture. The definition, routing rule, and reporting logic should match across teams and systems.
 

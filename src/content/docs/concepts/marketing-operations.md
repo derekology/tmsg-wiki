@@ -17,7 +17,7 @@ These responsibilities connect strategy to execution. For example, a lifecycle c
 
 ## Establish an operating model
 
-Begin with an inventory of recurring work, systems, data, and handoffs. For each important process, document the accountable owner, inputs, approvals, expected outputs, and exception path. Define shared terms with sales, product, finance, privacy, and IT where responsibilities overlap. Establish a small set of operational measures—such as launch reliability, data completeness, workflow error rates, and time to execute—alongside campaign and business outcomes.
+Begin with an inventory of recurring work, systems, data, and handoffs. For each important process, document the accountable owner, inputs, approvals, expected outputs, and exception path. Define shared terms with sales, product, finance, privacy, and IT where responsibilities overlap. Establish a small set of operational measures, such as launch reliability, data completeness, workflow error rates, and time to execute, alongside campaign and business outcomes.
 
 Marketing ops should not become a ticket desk for every request or a technology team isolated from strategy. Prioritize controls and improvements according to risk, customer impact, and organizational goals. Keep policies understandable, automate checks where practical, and review processes when the underlying customer journey or technology changes.
 

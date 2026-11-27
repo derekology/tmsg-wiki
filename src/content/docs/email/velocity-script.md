@@ -3,7 +3,7 @@ title: Velocity Script
 description: Using Apache Velocity-based email scripting in Adobe Marketo Engage.
 ---
 
-Velocity is a template language used in Adobe Marketo Engage email script tokens to generate dynamic email content. A script can read supported lead and related-object data, apply conditional logic, and format output for the recipient. It is intended for personalization and content logic within Marketo's scripting context—not as a general-purpose application runtime.
+Velocity is a template language used in Adobe Marketo Engage email script tokens to generate dynamic email content. A script can read supported lead and related-object data, apply conditional logic, and format output for the recipient. It is intended for personalization and content logic within Marketo's scripting context, not as a general-purpose application runtime.
 
 ## How it fits in Marketo
 

@@ -7,7 +7,7 @@ MailerLite is an email marketing platform used to create and send campaigns and 
 
 ## Where it may fit
 
-Teams may evaluate MailerLite when they need campaign authoring, audience organization, signup experiences, or email automation in a managed service. As with any sending platform, success depends on how the organization defines consent, list growth, suppression, segmentation, message governance, and measurement—not only on the editor or automation builder.
+Teams may evaluate MailerLite when they need campaign authoring, audience organization, signup experiences, or email automation in a managed service. As with any sending platform, success depends on how the organization defines consent, list growth, suppression, segmentation, message governance, and measurement, not only on the editor or automation builder.
 
 MailerLite has two distinct products: **MailerLite Classic** (also called Legacy) and the current **MailerLite** platform. They are separate platforms, not just different names for the same interface. If you already have an account, use MailerLite's guide to [identify which version you use](https://www.mailerlite.com/help/which-version-of-mailerlite-am-i-using).
 

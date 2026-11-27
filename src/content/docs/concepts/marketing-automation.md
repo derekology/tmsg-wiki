@@ -21,7 +21,7 @@ For instance, a webinar registration may trigger a confirmation, a reminder, and
 
 Automation can amplify stale data, ambiguous definitions, and poor timing. Keep a workflow inventory, review privacy and consent requirements, test edge cases, monitor send and synchronization errors, and retire flows that no longer serve their purpose. Do not interpret an automated score or activity signal as a complete picture of a person's intent.
 
-Platforms such as [HubSpot](/tools/hubspot/), [Adobe Marketo Engage](/tools/marketo-engage/), [Klaviyo](/tools/klaviyo/), and [Mailchimp](/tools/mailchimp/) provide different combinations of these capabilities. Compare workflows, data, governance, and operations—not just the number of automation features.
+Platforms such as [HubSpot](/tools/hubspot/), [Adobe Marketo Engage](/tools/marketo-engage/), [Klaviyo](/tools/klaviyo/), and [Mailchimp](/tools/mailchimp/) provide different combinations of these capabilities. Compare workflows, data, governance, and operations, not just the number of automation features.
 
 ## Sources
 
